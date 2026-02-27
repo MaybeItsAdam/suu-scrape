@@ -1,6 +1,7 @@
 import csv
 import os
 from datetime import datetime
+
 from suu_scrape.core.base import PluginBase
 
 
@@ -29,7 +30,7 @@ class CsvExportPlugin(PluginBase):
         scrape_type = context.get("scrape_type", "unknown")
 
         # Only run if explicitly requested via --csv flag
-        if not context.get('export_csv'):
+        if not context.get("export_csv"):
             return
 
         # Only run for election scrapes
@@ -60,7 +61,7 @@ class CsvExportPlugin(PluginBase):
 
         rows = []
         for pos in positions:
-            for cand in pos.get("candidates", []):
+            for cand in pos.get("winners", []):
                 rows.append(
                     {
                         "position": pos.get("title", ""),
@@ -82,6 +83,6 @@ class CsvExportPlugin(PluginBase):
                 writer = csv.DictWriter(f, fieldnames=self.COLUMNS)
                 writer.writeheader()
                 writer.writerows(rows)
-            print(f"Saved {len(rows)} candidates to {filename}")
+            print(f"Saved {len(rows)} winners to {filename}")
         except Exception as e:
             print(f"Error saving CSV: {e}")

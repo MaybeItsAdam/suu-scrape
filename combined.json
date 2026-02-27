@@ -1,0 +1,1468 @@
+{
+  "generated_at": "2026-02-27T15:52:18",
+  "source_elections": [
+    {
+      "name": "Scraped Election",
+      "url": "https://studentsunionucl.org/election/societies-officer-by-election-january-2026",
+      "source_file": "scrape_election_https_studentsunionucl_org_election_societies_offi_20260227_152244.json"
+    },
+    {
+      "name": "Scraped Election",
+      "url": "https://studentsunionucl.org/election/leadership-race-2025",
+      "source_file": "scrape_election_leadership_race_2025_20260227_141852.json"
+    },
+    {
+      "name": "Scraped Election",
+      "url": "https://studentsunionucl.org/election/rep-elections-2025",
+      "source_file": "scrape_election_rep_elections_2025_20260227_142845.json"
+    }
+  ],
+  "total_positions": 65,
+  "positions": [
+    {
+      "title": "Activities & Engagement Officer",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Sabbatical Officers",
+      "winners": [
+        {
+          "name": "Ana Boikova",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/IMG_1391_0.jpeg?itok=QlOwKc9F",
+          "election_statement": "What do you hope to achieve in the role if you are elected?\nIncrease funding for student activities\n– Allocate more money towards clubs & societies, and increase the provision of subsidised trips\nMore performance opportunities\n– Provide more hours for artsUCL and cultural performances\nGreater and improved space for activities\n– Open up spaces on campus to be used for student activities and improve the current facilities\nBreak down barriers to engagement\n– Provide a bigger variety of opportunities for students to get involved with\nHome for SU and TeamUCL\n– Lobby UCL to create distinct spaces for students to participate in activities at the heart of campus\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nSome of my achievements this year as\nyour Activities & Engagement Officer\ninclude:\nSet up a ‘Taster Fund’\nfor clubs & societies to run more taster sessions\nOrganised the Intercultural Summit,\nproviding a space for intercultural societies to collaborate\nExpanded artsUCL,\ncreating more pathways to get involved and increased allocated time for productions in the theatre\nMade Varsity bigger and better,\nadding more events, with new society involvement\nExpanded activity at East,\nhelping societies run events there and introduced the Swimathon\nSecured TeamUCL Gym refurb,\nimproving facilities for students\nPlease summarise why students should vote for you.\nAs your\ncurrent Activities & Engagement Officer\nI have worked hard to improve student life at UCL, gaining lots of\nexperience working with clubs & societies\n. Although I have made\nsome great progress\n, by making Varsity better, increasing inter-society collaboration, and engaging more students, there is\nstill lots more to do\n. Speaking to students, I understand their key issues and being in the role I have already\ndeveloped key relationships with UCL and SU staff\n, allowing me to tackle these easier.\nI will provide\nmore space, more funding, and more opportunities.\nStudent Life Is For Everyone!",
+          "is_winner": true,
+          "initial_tally": 2379.0,
+          "final_tally": 2379.0,
+          "campaign_points": [
+            "Increase funding for clubs & societies and subsidised trips",
+            "Provide more hours for artsUCL and cultural performances",
+            "Open and improve campus spaces for student activities",
+            "Offer a wider variety of engagement opportunities",
+            "Lobby for distinct SU and TeamUCL spaces at campus heart"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Education Officer",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Sabbatical Officers",
+      "winners": [
+        {
+          "name": "Sarah Jilani",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/SU%20Manifesto%20Picture.jpeg?itok=GTy-9ALY",
+          "election_statement": "What do you hope to achieve in the role if you are elected?\nPush for\nethical educational partnerships\n; demand cutting ties with entities breaching UCL's own ethical policies\nReduce exam anxiety\nby advocating for\nearlier timetable release\nand the\noption to type in-person exams\nIncrease\nstudy space availability\nacross campus\nIntegrate sample lectures\ninto the module handbook for\ninformed module selection\nStreamline\nsupport pathways\n(deferrals, interruptions) to be\neasily accessible in times of need\nSecure scholarship opportunities\nto\nsupport more students\nClose feedback loops: faculties must\nreport outcomes of your feedback\n,\nso your voices don’t go unheard\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nExtensive experience in\nUCL's education systems\n: through\nvolunteering\nat offer holder days,\nmentoring\nfirst-years, and serving as an\nacademic representative\n, I've worked with UCL undergrads across the years and am eager to widen my support\nAdditionally, 5+ years as a\nTA at a faith school\n,\nprivate tutor\n, and\nsummer school workshop leader for refugee children\nhas heightened my knowledge of how to\nimplement necessary changes\ninto education systems\nAs an\nSU Impartial Chair\n, I’ve been trained in\nfacilitating debates and advocacy\n, allowing me to\neffectively represent your needs\nto the university\nPlease summarise why students should vote for you.\nHaving seen the impact of drawn out academic support processes on people around me, I want to\nreduce avoidable stress\nduring difficult times by fighting for\nclearer access to adjustments.\nThe demand for an\nethical and sustainable\nuniversity has been raised by UCL’s student body louder than ever in the last two years. Like many of you, I've been frustrated by UCL's lack of accountability to its students.\nIf elected, I am committed to ensuring\nall\nyour voices are heard by the university\nat the highest levels\n, and will work tirelessly to bring the changes you need to reality.\nSJ\nfor the\nSU! ;)",
+          "is_winner": true,
+          "initial_tally": 912.0,
+          "final_tally": 1240.0,
+          "campaign_points": [
+            "Cut ties with entities breaching UCL ethics and push for ethical partnerships",
+            "Advocate earlier timetable release and in‑person exam typing to reduce anxiety",
+            "Expand study space availability across campus",
+            "Include sample lectures in module handbooks for informed selection",
+            "Streamline deferral and interruption support pathways",
+            "Secure more scholarship opportunities for students",
+            "Require faculties to report outcomes of student feedback"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Equity & Inclusion Officer",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Sabbatical Officers",
+      "winners": [
+        {
+          "name": "Eda Yildirimkaya",
+          "pronouns": "she/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/IMG_164127_0.jpeg?itok=PsMyGLD3",
+          "election_statement": "(she/her)\nWhat do you hope to achieve in the role if you are elected?\nLaunch a\npeer-to-peer support scheme\nto provide more accessible and\ndiverse mental health support\n.\nWork with\nartsUCL\nand\nTeamUCL\nto launch campaigns for\ngreater accessibility\nin creative and athletic spaces.\nEnsure\nawareness months\n(Black History, Disability History, Women’s History and LGBTQ+ History Months) are commemorated.\nDevelop plans to grow\nPOC, LGBTQ+, Trans, Disabled Students, and Women’s Networks\n, providing stronger platforms and communities.\nWiden the\nActive Bystander\ntraining to all UCL faculties.\nContinue advocating for a more inclusive and engaging\nstudent life at UCL East.\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nWhat I’ve achieved\nso far...\nLaunched\nLiberate:\nThe Phineas Art Gallery\nfor marginalised student artists to showcase their work.\nExpanded access to\nBritish Sign Language\nclasses through the Extended Learning Opportunities scheme.\nRaised funds for the\nGender Expression Fund\nby introducing the bestselling LGBTQ+ History Month  cocktail.\nAdvocated for\nbetter transport links to UCL East\n, extended\nrefectory hours\n, and open\ndepartmental spaces\nfor society activities.\nRepresented\nstudents of faiths and beliefs\nin key UCL Committees.\nLiaised with UCL to expand the\nActive Bystander Programme\n.\nPlease summarise why students should vote for you.\nI am re-running for Equity and Inclusion Officer because I know what it’s like to exist in spaces that weren’t built with you in mind. Over the past year, I’ve gained valuable experience advocating for student voices and creating meaningful change, but my work isn’t done. I want to continue building a UCL where no one feels the need to shrink themselves to fit in, and where diversity is truly celebrated—because\nwe all deserve to belong\n.\nEDA for EDI: More Equitable, Diverse, and Inclusive UCL",
+          "is_winner": true,
+          "initial_tally": 1626.0,
+          "final_tally": 1793.0,
+          "campaign_points": [
+            "Launch peer‑to‑peer mental health support scheme",
+            "Campaign with artsUCL and TeamUCL for greater accessibility in creative and athletic spaces",
+            "Ensure Black History, Disability History, Women’s History and LGBTQ+ History months are commemorated",
+            "Grow POC, LGBTQ+, Trans, Disabled and Women’s Networks",
+            "Widen Active Bystander training to all faculties",
+            "Advocate for inclusive student life at UCL East"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Postgraduate Officer",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Sabbatical Officers",
+      "winners": [
+        {
+          "name": "Darcy Lan",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/IMG_6871.JPG?itok=6oPzodm1",
+          "election_statement": "What do you hope to achieve in the role if you are elected?\n🔌\nCareer Support\nExpand\nPostgraduate Career Supercharger\n- a programme of\nsector-specific,  alumni networking, career events\n🚀Transferable skill workshops\nand more fun PG\nevents with free food🍕\n😎ADD VALUE TO YOUR DEGREE!\nOptimise the support UCL Careers offers\n(everyone has continued access to UCL Careers for 3 years after graduation)\n🌱Make UCL and the SU more sustainable\n🤩More\nlanguage support\nfor those who need it\n🤠Nicer PG only study\nspaces\n👍Better conditions for\nPGTAs\n🎓A central\nplatform for research students\nto recruit participants\n💚💰\nImprove\nmental health\nand\nfinancial support\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nEXPERIENCE\nAs your current PO, I\nDeveloped a series of 🔌\nPostgraduate Career Supercharger\nevents (CV, Interview, networking, alumni career panel and more) on campus\nwith\nfree food\n🍕 and worked on\nsector-specific online career events\nCarried out\npopular social events and sports activities\nOffered better\nlanguage support\nBuilt\nPGR community\n🤩Quotes about me :)\n\"approachable, driven, funny, warm and competent\"\n\"she radiates\nkindness\nand\nactually cares\nabout our needs\"\n\"It's hard not to like her!\"\n\"a\nthoughtful\nevent organiser\"\n\"a great\ncommunicator and negotiator\n\"\n\"a workaholic😜but\na go-getter for us\n\"\nPlease summarise why students should vote for you.\nHiya my friends, it’s\nDarcy\n, your\ncurrent PO, who has tracked records of doing great things for students. I am an seasoned career event organiser, who have also established great relationships with stakeholders to get you what you need🤩\nThe\nred-haired girl 👩‍🎤 keeps annoying your inbox\nwith the postgraduate newsletter🤪,\nWHO CARES\nabout your experience, career and wellbeing!\nRe-elect me to unlock:\nwell-supported PG community\n🔌Career and alumni networking events, transferable skill workshops\n(all available for alumni, final-year students I got you covered)🤠\n🤩Vote Darcy, vote employability!",
+          "is_winner": true,
+          "initial_tally": 1442.0,
+          "final_tally": 1648.0,
+          "campaign_points": [
+            "Expand Postgraduate Career Supercharger with sector‑specific alumni networking",
+            "Offer transferable skill workshops and PG events with free food",
+            "Extend UCL Careers support for 3 years post‑graduation",
+            "Promote sustainability in UCL and SU",
+            "Provide language support for non‑native speakers",
+            "Create nicer PG‑only study spaces",
+            "Improve mental health and financial support for PG students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Students' Union President",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Sabbatical Officers",
+      "winners": [
+        {
+          "name": "Anam Eijaz Ahmed Choudhary",
+          "pronouns": "She/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/47f4027d-24c0-4b10-8c43-ef3b6b10cd1b.jpeg?itok=HmuObbxe",
+          "election_statement": "(She/her)\nWhat do you hope to achieve in the role if you are elected?\nUCL needs a true home for students.\nI’ll push for a\ndedicated Student Hub\na space where societies, events, and friendships can thrive\nFix what’s broken.\nI’ll work with\nUCL Estates to upgrade study spaces, classrooms, and campus facilities\nso we have the environment we deserve.\nMake campus food affordable & inclusive.\nNo student should have to choose between\nhealth and cost\n.\nInterfaith Awareness Module:\nPromote dialogue and equitable environment through an educational program for UCL's diverse student body\nPrioritize sustainability.\nFinancially and environmentally, we\nbuild a better future\nfor us.\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nProven Leadership.\nAs\nSecretary of the Studio Department, I led 250+ students and organized 25+ events\nI know how to bring people together.\nA Strong Voice.\nAs a\nUnion Executive, Social Media Ambassador for UCL School of Management, and Marketing Manager for Muslimah Society\n, I understand how to\nengage students and drive action\n.\nResults-Driven Approach.\nI’ve spent years in\nleadership, advocacy, and student engagement\nand I know how to\nturn ideas into real impact\n.\nCommitment to Change.\nI’m here to\nfight for students—not just talk about it\nPlease summarise why students should vote for you.\nBecause\nyou deserve more\na stronger voice, better support, and an SU that works for you.\nI’m here to\nmake change happen\nnot in years, but\nnow\n.\nI’ll push for\naffordable food, better spaces, and a real student community\nat UCL.\nBridge Differences, Build Unity-\npromoting respect and equity for UCL's vibrant student body.\nI know how to\nlead, organize, and fight for what matters\nI’ve done it before, and I’ll do it again.\nA vote for me is a vote for\naction, impact, and a UCL that truly puts students first\n.\nLet’s make UCL a place where we don’t just study—we belong.",
+          "is_winner": true,
+          "initial_tally": 0.0,
+          "final_tally": 0.0,
+          "campaign_points": [
+            "Push for a dedicated Student Hub for societies, events and friendships",
+            "Upgrade study spaces, classrooms and campus facilities with UCL Estates",
+            "Make campus food affordable and inclusive",
+            "Introduce Interfaith Awareness Module for dialogue and equity",
+            "Prioritise financial and environmental sustainability"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Welfare & Community Officer",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Sabbatical Officers",
+      "winners": [
+        {
+          "name": "Hana Mougharbel",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/WhatsApp%20Image%202025-03-10%20at%2007.53.02.jpeg?itok=-_ECzAo7",
+          "election_statement": "What do you hope to achieve in the role if you are elected?\nAccommodation\nstandards established & assessed\nthrough\ninspections\n(no more mould or bug infestations!)\nImposter syndrome & confidence-building workshops\nGrace period\nof 9 minutes after assessment submission deadlines, with only 1% deduction per minute overdue\nBreakfast Club (free food)\nPrayer/meditation spaces in\nevery\naccommodation & UCL building\nAllow\n2025 graduates\nto return after Main Quad renovation to hold a late 'Portico' celebration\nDivestment\nfrom arms companies\nGym\ndiscount\nfor Access Students\nA comprehensive medical & mental health\nfirst aid course\nMore\nmobility-needs lifts\nA/C\nsystem in B1!\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nI want\nREAL CHANGE.\nWith an\neldest daughter fire\n, I often lead projects making sure\neveryone's voice is heard & encouraged.\nFacing mental health struggles, I founded a\nCARES Club\nto train students in supporting peers. As a\nMedia Lead & Main Committee member of SJP\n, I care deeply about rights, sustainability & wellbeing! I'm an\nAccess UCL student\n, understanding how bad financial hardships can get, especially with the cost of living. My\nneurodivergence\ngives insight into\nhow disabilities impact daily life.\nWith career goals in public health, I want to make\nfitness & health accessible\nfor all!\nPlease summarise why students should vote for you.\nSTUDENTS\nare what\nMAKE\nUCL!\nI’ll fight for\nfairer housing, rent support, and maintenance of facilities\n, improve\nmental & physical health services\n, push for\ncheaper food\nas well as\ndirect financial\n&\nessential aid\n. I’ll ensure\ninternational, mature, disabled, & part-time students get the support they need\nto feel accounted for while strengthening\nsocial student wellbeing, advice services, & community connections\n. Let’s build a\nUCL where everyone can thrive—together!\nWith an\nonline suggestion/concern forum, quarterly surveys & feedback groups\n, I want this year to be all about\nyou\n!\ninsta:\n@vote4hana",
+          "is_winner": true,
+          "initial_tally": 907.0,
+          "final_tally": 1177.0,
+          "campaign_points": [
+            "Establish accommodation inspections to enforce standards and eliminate mould/bugs",
+            "Offer imposter syndrome and confidence‑building workshops",
+            "Introduce a 9‑minute grace period after assessment deadlines with 1% deduction per minute",
+            "Run a free Breakfast Club",
+            "Provide prayer/meditation spaces in all accommodation and UCL buildings",
+            "Offer a gym discount for Access Students",
+            "Provide a comprehensive medical and mental health first‑aid course"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Accommodation & Housing Officer",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Officers",
+      "winners": [
+        {
+          "name": "Arhham Shah",
+          "pronouns": "He/him",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/WhatsApp%20Image%202025-03-10%20at%2001.24.05_ce392ab6_12.jpg?itok=LirY4qSX",
+          "election_statement": "(He/him)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nExperience: Running two businesses—one in the culinary space and another in teaching—has equipped me with strong organizational, communication, and problem-solving skills.\nLeadership: My roles as Events Officer for the UCL Mathematics Society and First-Year Representative for the Jain Society have refined my ability to advocate for students and address their concerns.\nDedication: I am passionate about ensuring that all students have access to safe, comfortable, and affordable housing, and I am committed to creating a positive housing environment for everyone.\nWhat do you hope to achieve in the role if you are elected?\nIf elected as Accommodation Housing Officer, I hope to achieve:\nAdvocate for Affordable Housing: Work to ensure that all students have access to affordable accommodation options.\nImprove Housing Conditions: Collaborate with university administration to address issues related to housing conditions and maintenance.\nProvide Support and Resources: Offer guidance and resources to help students navigate the housing process and resolve any accommodation-related issues.\nMy goal is to create a positive and supportive housing environment for all students at UCL.\nPlease summarise why students should vote for you.\nStudents should vote for me because I bring a wealth of experience, strong organizational and communication skills, and a deep understanding of the challenges faced by students. My leadership roles in UCL societies and my entrepreneurial background have equipped me to effectively serve as Accommodation Housing Officer. Let's work together to make UCL a supportive and engaging space for everyone!",
+          "is_winner": true,
+          "initial_tally": 1459.0,
+          "final_tally": 1459.0,
+          "campaign_points": [
+            "Advocate for affordable housing options for all students",
+            "Improve housing conditions and maintenance with university administration",
+            "Provide guidance and resources for navigating the housing process",
+            "Create a positive and supportive housing environment for everyone"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disabled Students' Officer",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Officers",
+      "winners": [
+        {
+          "name": "Danilo Paganelli",
+          "pronouns": "He/him",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/IMG-20241029-WA0020%20%281%29_10.jpg?itok=UYWilvyy",
+          "election_statement": "(He/him)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nHey! I am Danilo and I am running to be your Disabled Students Officer! I have been part of the DSN committee for the past few years and have been trying to keep the network afloat this year. Through my role in the network and my own experiences, I know many of the difficulties that we as disabled students face at UCL and I want to help ensure that I can help create change in UCL. I have a lot of experience as Welfare Officer of the DSN and leading the Autism Society, alongside being LGBTQ+ Officer. I also have strong connections to UCL SSW and the Disability Team and external organisations.\nWhat do you hope to achieve in the role if you are elected?\n1.) Support all members of the DSN and lead regular Drop-In sessions\n2.) Conduct investigations into accessibility at UCL, including SoRAs not being respected and the lack of accessible classrooms/buildings\n3.) Create a \"Neurodivergent Network\" to run alongside the DSN\n4.) Help start to create specific groups for specific conditions, medications & disabilities\n5.) Create a \"Disability Participation Fund\" to help more students get involved in SU activities\n6.) Run at least 1 in-person and 1 online event each week\n7.) Help create and introduce accessibility training for staff and students\nAnd much more\nPlease summarise why students should vote for you.\nI will strive my hardest to help create positive change in UCL for disabled students and staff. I will also ensure that the DSN flourishes by supporting members and hosting regular accessible and welcoming events so that students can enjoy their time at university. I have a lot of experience through leading the network this year and various other committee positions throughout my time at UCL and thus I believe that I will be able to help the DSN be the best it can be. Moreover, I will always be there for all of our members and support, listen and signpost where I can, and represent you all.",
+          "is_winner": true,
+          "initial_tally": 82.0,
+          "final_tally": 92.0,
+          "campaign_points": [
+            "Lead regular DSN drop‑in sessions for all members",
+            "Investigate accessibility issues at UCL, including SROAs and classroom access",
+            "Create a Neurodivergent Network alongside DSN",
+            "Establish specific groups for particular conditions, medications and disabilities",
+            "Launch a Disability Participation Fund for SU activity involvement",
+            "Run at least one in‑person and one online event weekly",
+            "Introduce accessibility training for staff and students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "International Students' Officer",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Officers",
+      "winners": [
+        {
+          "name": "Vanessa Burmeister",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/IMG_0973%202_0.jpg?itok=DobHgPnZ",
+          "election_statement": "What will you bring to this role (e.g. experience, skills or qualities)?\nI led my school’s\nInternational Committee\nin actively helping international students adjust to a new environment by creating\ntransition programs\n, organising\nnumerous social events\n,\ninternational food markets\n, and a\n2-day cultural showcase!\nHighly effective at working with a team and making sure the interests of international students are\nnot just heard but acted upon.\nExtensive leadership experience\n, such as chairing a student club with nearly 100 members, affording me strong delegation skills, the ability to get things done efficiently, and a commitment to improve on feedback from students.\nWhat do you hope to achieve in the role if you are elected?\nRevamping International Orientation Week\nwith international\nsocials and day trips.\nExpanding the Mentorship Program\nfor international freshers,\nincluding\nmeetups on essential topics\n(eg navigating UK banking) and\npeer-led guidance\non adjustment.\nIntroducing Monthly Cultural Nights\nin collaboration with cultural societies, co-hosting\nlive performances, traditional arts workshops, and international food tastings.\nCultural Fusion Events\nfor sharing cultural skills.\nCareer Support\n-\nconnecting students with\ninternational alumni, mentorship, industry-specific panels,\nand\ntailored\njob-seeking resources.\nPlease summarise why students should vote for you.\nI’m dedicated to improving UCL’s international student experience and\nensuring your voice is heard.\nHaving faced many of the same challenges moving away from home, I know the importance of strong support. My experience directly advocating for international student interests positions me to make the international student experience here welcoming and enriching. International students deserve effective advocates on campus and the resources necessary to thrive off campus.\nStronger support, richer culture, better opportunities\n- with your vote,\nI’ll work tirelessly to make these changes a reality!",
+          "is_winner": true,
+          "initial_tally": 300.0,
+          "final_tally": 351.0,
+          "campaign_points": [
+            "Revamp International Orientation Week with socials and day trips",
+            "Expand the Mentorship Program for international freshers, including meetups on essential topics and peer‑led guidance",
+            "Introduce Monthly Cultural Nights featuring live performances, traditional arts workshops and international food tastings",
+            "Organise Cultural Fusion Events to share cultural skills",
+            "Provide Career Support by connecting students with international alumni, mentorship, industry panels and tailored job resources",
+            "Ensure international student interests are heard and acted upon"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "LGBQ+ Officer",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Officers",
+      "winners": [
+        {
+          "name": "Rosanna Steele Pugh",
+          "pronouns": "she/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/IMG-20250309-WA0062~2.jpg?itok=GFW1f9vK",
+          "election_statement": "(she/her)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nAs a politically engaged bisexual, I have learnt about the struggles LGBTQ+ people face and am passionate about advocating for greater recognition, expression, and inclusion at UCL. I have a strong network within the LGBTQ+ community through events and societies which will allow me to incorporate diverse perspectives into policy. Additionally, I’m actively involved in the Student Union, having attended Union Executive, Student Forums, and the Education Zone giving me the knowledge, experience and ability necessary to propose and advocate for policies to improve the lives of queer people.\nWhat do you hope to achieve in the role if you are elected?\nAs LGBTQ+ Officer, I’d work with UCL to create a safer and more inclusive space for queer people. This would include pushing for increased and targeted LGBTQ+ mental health support, especially for those with non-accepting families and those facing ostracism. I would also advocate for funding and promoting queer art on campus to foster greater expression. Further, I will try to use UCL’s reputation to drive wider change in society to improve LGBTQ+ lives through coordinating campaigns and protests across the University of London to support queer rights, particularly improving trans healthcare.\nPlease summarise why students should vote for you.\nI’m deeply passionate about LGBTQ+ rights and have witnessed firsthand the struggles queer people face in society today. With my experience and commitment, I can unite LGBTQ+ students at UCL to drive meaningful change. I am equipped to involve the queer community across UCL in policy making which will be vital to find the key areas in which people need support. Moreover, I feel I am well equipped to lobby UCL due to my experience in Union meetings and previous success helping to pass policy. I would genuinely love to use this role to make a real difference in the lives of queer people.",
+          "is_winner": true,
+          "initial_tally": 105.0,
+          "final_tally": 105.0,
+          "campaign_points": [
+            "Push for increased and targeted LGBTQ+ mental health support, especially for those with non‑accepting families or ostracism",
+            "Advocate for funding and promotion of queer art on campus to foster expression",
+            "Coordinate campaigns and protests across the University of London to support queer rights, particularly improving trans healthcare",
+            "Create a safer and more inclusive space for queer people at UCL",
+            "Use UCL’s reputation to drive wider societal change for LGBTQ+ lives"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mature, Part-Time & Carers Students' Officer",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Officers",
+      "winners": [
+        {
+          "name": "Yi Li",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-02/IMG_3987.jpeg?itok=FQV9jLEU",
+          "election_statement": "What will you bring to this role (e.g. experience, skills or qualities)?\nI know what it’s like to juggle education with life’s many responsibilities, and I’m passionate about supporting others in the same boat. As a current MA student in Special and Inclusive Education and working with disadvantaged students in secondary school for over 2 years, I’ve worked closely with diverse student communities, helping them feel seen and supported. Having studied in both China and the UK, I understand the unique challenges that mature, part-time, and caregiving students face. I want to ensure every voice is heard and help make UCL a more inclusive, welcoming space for all.\nWhat do you hope to achieve in the role if you are elected?\nIf elected as the Mature, Part-Time & Carers Students Officer, I’ll ensure these students feel supported, included, and represented at UCL. My priorities:\nBetter Support Services\n– I’ll push for academic flexibility, financial aid awareness, and tailored mental health resources.\nStronger Community\n– I’ll create networking events, peer mentoring, and forums for connection.\nGreater Recognition\n– I’ll advocate for visibility and policy changes. My goal is to make UCL a truly inclusive space where we can all thrive.\nPlease summarise why students should vote for you.\nAs a single mom, full-time worker, and postgraduate student, I know firsthand how tough it is to juggle studies, work, and family. I’ve lived the stress of deadlines, financial worries, and the struggle to find support—but I also know the strength and resilience that come with it. That’s why I’m passionate about representing mature, part-time, and student carers. I’ll fight for fairer policies, flexible learning, and better support because no one should have to choose between education and personal responsibilities. If elected, I’ll ensure UCL truly supports and empowers students like us!",
+          "is_winner": true,
+          "initial_tally": 74.0,
+          "final_tally": 74.0,
+          "campaign_points": [
+            "Push for academic flexibility for mature, part‑time and carers students",
+            "Increase financial aid awareness and provide tailored mental health resources",
+            "Create networking events, peer mentoring and forums for connection",
+            "Advocate for visibility and policy changes to recognise these students",
+            "Ensure support, inclusion and representation at UCL"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "People of Colour (POC) Officer",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Officers",
+      "winners": [
+        {
+          "name": "Aaliya Noor Ali",
+          "pronouns": "she/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/IMG-20250123-WA0016~2.jpg?itok=ov4YAxpL",
+          "election_statement": "(she/her)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nAs an ambassador to the Children's Commissioner, I have championed young people’s voices in Parliament, influencing inclusive policy and advocating for POC representation. My experience navigating institutional systems equips me to push for meaningful change at UCL. I have led campaigns on education reform, decolonizing the curriculum, and mental health, directly aligning with POC student concerns. My leadership, problem-solving, and communication skills will help create inclusive spaces, improve well-being support, and ensure the curriculum reflects diverse communities at UCL.\nWhat do you hope to achieve in the role if you are elected?\nI plan to create\nvibrant, inclusive events\nwhere POC students feel\nsafe and celebrated.\nBy collaborating with UCL societies, I will organize creative events like poetry slams for POC students to share their experiences and professional networking events with successful POC leaders to\ninspire ambition.\nI will work with UCL wellbeing services to improve\nmental health support tailored to POC needs.\nAdditionally, I will host meetings and establish an\nanonymous feedback system\nto ensure POC voices are heard and concerns addressed within the SU and wider university.\nPlease summarise why students should vote for you.\nMy vision is clear:\nCreate safe and inclusive spaces for POC students and amplify their voices and needs\nHost a wide range of fun, vibrant events to celebrate the cultures, talents and potentials of POC students at UCL\nWork to decolonise the curriculum\nImprove mental health support by ensuring appropriate, tailored support is provided\nEstablish accessible feedback channels so POC students’ concerns are heard and addressed.\nStrengthen solidarity among POC students by fostering collaboration between societies and creating a supportive community.\nVote for Aaliya for a stronger, more inclusive UCL!",
+          "is_winner": true,
+          "initial_tally": 78.0,
+          "final_tally": 93.0,
+          "campaign_points": [
+            "Organise vibrant, inclusive events (poetry slams, networking) celebrating POC students",
+            "Improve mental health support tailored to POC needs via wellbeing services",
+            "Establish an anonymous feedback system for POC voices",
+            "Work to decolonise the curriculum",
+            "Strengthen solidarity among POC students through society collaboration",
+            "Create safe and inclusive spaces for POC students"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Research Students' Officer",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Officers",
+      "winners": [
+        {
+          "name": "Yiwen Cheng",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/Yiwen4.JPG?itok=LOYCa0Kt",
+          "election_statement": "What will you bring to this role (e.g. experience, skills or qualities)?\nNavigating the world of research can often feel isolating. We spend countless hours buried in books, running experiments, analysing data, and writing papers - all while facing the pressures. But research doesn’t have to be a solitary journey. As your Research Students’ Officer, I am committed to fostering a supportive, connected, and thriving research community. Having previously served as a student union officer, I have worked in external affairs, administrative coordination, and project management, successfully bridging the gap between students and institutional bodies.\nWhat do you hope to achieve in the role if you are elected?\nEnhancing Well-being: I hope to advocate for better mental health support, social engagement opportunities, and academic well-being initiatives to help no one struggles alone.\nBuilding a Stronger Research Community: I hope to establish networking events, interdisciplinary discussion forums, and peer support groups to create meaningful connections across faculties.\nAmplifying Your Voice: Your concerns matter. I hope to work to improve communication channels between research students and university administration, ensuring your needs are heard and addressed.\nPlease summarise why students should vote for you.\nBecause I will genuinely and passionately represent you. My goal is not just to hold a title, but to be an advocate, facilitator, and problem-solver for research students. Your challenges are my challenges, and together, we can build a more inclusive, supportive, and empowering research environment.",
+          "is_winner": true,
+          "initial_tally": 110.0,
+          "final_tally": 110.0,
+          "campaign_points": [
+            "Advocate for better mental health support and academic well‑being initiatives for research students",
+            "Establish networking events, interdisciplinary discussion forums and peer support groups",
+            "Improve communication channels between research students and university administration",
+            "Foster a supportive, connected research community",
+            "Amplify research students’ voices"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Social Class & Mobility Officer",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Officers",
+      "winners": [
+        {
+          "name": "Aya Elgool",
+          "pronouns": "she/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/AF19BB06-36D8-412F-AFAA-42126795F35C_2.jpeg?itok=En4ZoEpX",
+          "election_statement": "(she/her)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nAs someone who is Black, Muslim and from a low-income background, I know firsthand what it is like to struggle with navigating higher education. From financial barriers to feeling out of place in elite spaces, I’ve experienced the systemic inequalities that hold talented students back. However, I can appreciate the experiences that being on widening participation programmes gave me; nonetheless, I know that this is not everyone's experience.\nThrough being an avid public speaker and someone who is passionate about social mobility, I believe I have the necessary skills to best represent YOU!\nWhat do you hope to achieve in the role if you are elected?\nIf elected, I hope to carry out the following things:\nBuilding community for low-income students\n: whether that be through events or collaborating with the Access team, I want to ensure we have a community we can rely on here at university\nPush for more financial support\n: I will campaign for increased funding to provide financial support to low-income students, be that in the form of grants, scholarships or subsidised costs\nCareer opportunities\n: highlight opportunities\nexclusive\nto people from low-income backgrounds; this would be done in collaboration with other societies and the Student Union\nPlease summarise why students should vote for you.\nI am someone who has lived these challenges -  I know what it is like to struggle financially at university, what it is like to feel disconnected from affluent peers, and constantly pushing to feel like I belong in such an elite space. However, I also know how powerful our voices can be and I want to use my experiences having been on scrutiny boards, panels and publicly speaking on the impact of social mobility to represent you in the best way possible.\nIf elected, I will use my position to ensure no student is left behind.\nVote Aya for Social Class and Mobility Officer now",
+          "is_winner": true,
+          "initial_tally": 70.0,
+          "final_tally": 105.0,
+          "campaign_points": [
+            "Build community for low‑income students through events and Access team collaboration",
+            "Campaign for increased financial support: grants, scholarships and subsidised costs",
+            "Highlight career opportunities exclusive to low‑income backgrounds",
+            "Push for more financial support and funding",
+            "Ensure no student is left behind"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sustainability Officer",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Officers",
+      "winners": [
+        {
+          "name": "Oskar Barltrop and Pauline Le Gal",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/Oskar%20and%20Pauline%20Candidate%20Photo.png?itok=S9kC2Tf_",
+          "election_statement": "What will you bring to this role (e.g. experience, skills or qualities)?\nAs\nClimate Action Society\nmembers, we have been a part of building UCL’s sustainability framework, developing the\nEnvironmental Assembly\nand the\nSU Sustainability Council.\nOur most recent success was the SU’s approval of a\nFossil Free Careers\npolicy. We have worked together a lot and hope to\nachieve more by sharing the responsibilities of this role!\nPauline has been treasurer for two climate-related societies; fundraising and organising social events and campaigns. As Hall Community Officer and course rep, Oskar has represented students’ accommodation rights and organised various social events.\nWhat do you hope to achieve in the role if you are elected?\nTransport\nContinue to negotiate\nreduced fare Eurostar\ntickets for London students\nReduce\nstaff and student\nflights\nwhere possible, continuing our work with Flight Free UCL\nFinance\nSwitch UCL and Student Union\naway from Barclays\nBank, which invests a lot in fossil fuels\nDevelop campaign to encourage students to bank with\ngreen banks\nFood\nReduce food waste at UCL student cafes -\nmake food 50% off in the last hour\nSupport and expand UCL sustainable food initiatives, such as\nPlanetPoints\nEducation\nImplement the\nFossil Free Careers\npolicy in the fairest way possible\nCreate more\nsustainability-related modules\nPlease summarise why students should vote for you.\nAs active students in sustainability groups, we are\ngenuinely committed to making UCL more sustainable.\nWe\nalready understand UCL’s systems\nand have worked with relevant sustainability groups and people.\nHonestly,\nwhether we are elected or not, we will continue\nto work on sustainability initiatives, as we have done with the current sustainability officer. If elected we will streamline and amplify sustainability efforts both at the\nuniversity and national level.\nWe are already on track to raise environmental standards at UCL, and this position would enable us to\ncreate\neven more change next year!",
+          "is_winner": true,
+          "initial_tally": 642.0,
+          "final_tally": 820.0,
+          "campaign_points": [
+            "Negotiate reduced fare Eurostar tickets for London students",
+            "Reduce staff and student flights, continue Flight Free UCL",
+            "Switch UCL and SU away from Barclays Bank to green banks",
+            "Reduce food waste at UCL student cafes, make food 50% off in the last hour and support sustainable food initiatives",
+            "Implement Fossil Free Careers policy fairly",
+            "Create more sustainability‑related modules",
+            "Continue and amplify sustainability initiatives"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Trans Officer",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Officers",
+      "winners": [
+        {
+          "name": "Mia Vautier",
+          "pronouns": "she/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/1000005195.jpg?itok=VOTzGBgD",
+          "election_statement": "(she/her)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nI have previous experience representing trans students in UCL, co-presenting the Trans Experiences in Accomodation Project (which can be seen online!), in which we highlighted distressing and/or discriminatory aspects of signing up for and living in UCL accommodation, as well as proposing solutions to help trans tenants feel safer and more accepted whilst living in Halls.\nI am also very much aware of the current support services available in the UK for trans individuals, and those offered by UCL, and am intimately acquainted with the trans healthcare pathways in the UK.\nWhat do you hope to achieve in the role if you are elected?\nIf elected, I would like to increase awareness of several support options offered by UCL for trans students through both online and in-person signposting, as there is extremely little signposting for some methods of support (e.g. free mentoring via gendered intelligence).\nFurthermore, alongside the wider UCLSU, I would continue to emphasise to UCL that any and all forms of trans hate are unacceptable, and should be dealt with accordingly. Trans students feeling safe at UCL is not a privilege, it is a basic right that ALL students should hold, whether cisgender or transgender.\nPlease summarise why students should vote for you.\nI started my transition at age 16, and started HRT at age 18, whilst still studying for my A-levels. I am extremely aware of the privileged position I am in, transitioning so early. I fervently believe that trans healthcare should be a basic right, not a privilege. I hope to help trans students navigate UK healthcare options, should they wish it. However, I also believe that trans students who do not wish to medically transition should feel just as valid and accepted, not just within trans communities, but by the wider UCL community, as such students may experience increased discrimination.",
+          "is_winner": true,
+          "initial_tally": 31.0,
+          "final_tally": 32.0,
+          "campaign_points": [
+            "Increase awareness of UCL support options for trans students via online and in‑person signposting",
+            "Emphasise that any form of trans hate is unacceptable and must be dealt with",
+            "Ensure trans students feel safe at UCL as a basic right",
+            "Help trans students navigate UK healthcare options",
+            "Validate non‑medically transitioning trans students as valid and accepted"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "UCL East Student Officer",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Officers",
+      "winners": [
+        {
+          "name": "Yiran Liu",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/Yiran%20Liu.jpg?itok=PcShFAd2",
+          "election_statement": "What will you bring to this role (e.g. experience, skills or qualities)?\nAs Minister of the Career Department at UCL CSSA and a student opinion leader with experience in global forums and multicultural initiatives, I aim to ensure every voice is heard and every culture celebrated. If elected, I will promote multicultural exchange, enhance student welfare, and strengthen collaboration between students and staff. I plan to host monthly open forums, launch a digital feedback system, and organise inclusive cultural and innovation events to build a connected, supportive and inspiring UCL East where diversity fuels progress and every student can thrive.\nWhat do you hope to achieve in the role if you are elected?\nFrom secondary school to university, I have consistently served as a student opinion leader, developing strong social and communication skills through leading teams and representing peers. As Minister of the Career Department at UCL CSSA, I organised the “Xiaomi Workshop – Discovery Series” and UCL orientation events across major cities. My experience in global forums and the Shanghai Cup Debate Championship strengthened my leadership and multicultural collaboration abilities. I bring empathy, confidence, and a global outlook to connect and empower the UCL East community.\nPlease summarise why students should vote for you.\nPeers and mates, don’t vote for me — vote for your voices and your vision of UCL East. I’m not just a leader, but a mate who listens, connects and takes action for your merits. From secondary school to university, I’ve stood for dialogue, inclusion and real change. If elected, I’ll represent the shared interests of students and the University, strengthening welfare, diversity and collaboration. Together, we’ll build a bold, united and inspiring UCL East — where every culture shines, every idea matters, and every student feels proud to belong.",
+          "is_winner": true,
+          "initial_tally": 108.0,
+          "final_tally": 108.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Women's Officer",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Officers",
+      "winners": [
+        {
+          "name": "Devi Sankhla",
+          "pronouns": "she/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/PHOTO-2025-03-09-16-39-43.jpg?itok=sL7aazUe",
+          "election_statement": "(she/her)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nAs a\nLGBT+ Rep on the Women’s network\n, I’ve spent the past year making campus a positive and inclusive space for all students by organising a\nmonthly book club\ndiscussing feminist literature  and a\nwomen’s career event\nhighlighting career leaders from the UCL community.\nI’ve been actively involved in the\nSU\nas well as directly in the\nUCL faculty\nto represent your concerns:\nWomen’s Rep in the LGBTQ+ Network: collaborated with other networks to decolonise queer spaces and highlight diverse experiences\nEDI Shadow Board member (SHS Faculty): worked on improving the Widening Participation scheme\nWhat do you hope to achieve in the role if you are elected?\nI want to bring the\n3Cs-  career, community and care!\nCareer\nWorkshops\nfor women to improve their soft skills and practice\nnetworking\nin a\nsupportive\nenvironment\nMonthly panels\nhighlighting women sector leaders\nCommunity\nThree\ntypes of events:\ncreative\nsocials, discussions and drop-ins\nto hear from you\nRecognise\nintersectional\nidentities by\ncollaborating across networks\nTerm in a nutshell newsletter\nhighlighting stories from UCL women\nstudents and staff\nCare\nDrop-in\nsessions for women’s\nhealthcare\n:\ninformal\nspaces to talk to\nprofessionals\nand peers while painting, sipping tea and relaxing :)\nPlease summarise why students should vote for you.\nHaving worked for a year as a Student Rep in SU networks, I’m\nexperienced\nat addressing student concerns, planning events and crafting policy. But most of all, I know first-hand how empowering finding a\ncommunity\nof people who\ntruly understand\nthe problems you face can be. As a queer Indian woman, I’m aware how isolating university spaces can be, and I want to create spaces where everyone feels\nwelcome and safe\n.\nTogether\n, we have immense power and I want to mobilise it to\nprotect and promote\nwomen's rights, and make campus a\npositive space for everyone.",
+          "is_winner": true,
+          "initial_tally": 328.0,
+          "final_tally": 328.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Student Trustee",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Student Trustees",
+      "winners": [
+        {
+          "name": "Rawleka Wilson",
+          "pronouns": "she/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/professionalphoto.png?itok=f5YvKEUX",
+          "election_statement": "(she/her)\nWhat do you hope to achieve in the role if you are elected?\nYOUR SU. YOUR RULES.\n🚀\nCut the Red Tape\nSlash wait times for funding/event approvals —\nspeed over paperwork\nDecolonise SU Decisions\nAudit investments/partners to reflect UCL’s\nGLOBAL community\n— no more token diversity\nFix Broken Systems\nOverhaul clunky online tools (bookings, memberships) —\nsocieties deserve tech that WORKS\nFund Justice\nPrioritise cash for\ncultural/liberation/grassroots groups\n— no more big-society bias\nTransparency\nPublic SU budget dashboards —\ntrack every penny\nspent\nFair Prices\nCap SU café/bar prices + secure\ngym/food discounts\n. Profits fund\nYOU\n, not bureaucracy\nWhat will you bring to this role (e.g. experience, skills or qualities)?\n2 years as People of Colour Officer\namplifying marginalised voices through\npolicy, events, + EDI initiatives\nwith SU teams/Union Executive\nCommittee roles running societies — I know\nwhere systems fail students\n+ how to fix them\nProblem-solving\nskills— not afraid to\nchallenge decisions\nthat don’t serve students\nStrong\nnegotiation + research skills\nfrom being BAME Awarding Gap Rep + Student Research Advisor\nCommitted to\nchallenging where power + money flow\n, not just “representing” students\nWorking w/ neurodiverse individuals, I’m committed to making\naccessibility + inclusion\ncentral to SU decisions\nPlease summarise why students should vote for you.\nVote for me if you want a Trustee who won’t just sit in meetings but will\nchallenge unfair decisions + fight for real change\n. I’ll push for\nstructural decolonisation, transparent spending + accountable leadership\n— reviewing\nwhere\nSU invests money,\nwho\nthey partner with, and if this reflects UCL’s global and diverse student body.\nI’LL KEEP SU UCL REAL\n💥\nR\nesponsive 📢 |\nE\nquitable ⚖️ |\nA\nccountable 🔍 |\nL\ned by YOU 👥\nBecause that’s what we deserve!\nNO MORE “WE’LL LOOK INTO IT”\n🙅\nJUST ACTION. JUST IMPACT.\n✊",
+          "is_winner": true,
+          "initial_tally": 534.0,
+          "final_tally": 735.0,
+          "campaign_points": null
+        },
+        {
+          "name": "Adam Cleary",
+          "pronouns": "He/Him",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/campaign-photo.jpg?itok=QpKOuXzu",
+          "election_statement": "(He/Him)\nWhat do you hope to achieve in the role if you are elected?\nI care so much, I made a\nwebsite\n:\nvoteadam.xyz\n🚶‍♀️\nPedestrianise\nthe Place\nThe Union has the means to lobby local government\nLets make getting between sites safer and better\n🕸️  Improve Digital Infrastructure\nI can see cobwebs on the Union website\nOrganising activities should be\nless painful\n🍻 Protect our Bars\nI would ensure that our bars develop their\nidentity\nIntegral to life here, they are not going anywhere\n🥪 Zero Food Waste\nUnion cafés are set on a weekly basis to throw away up to hundreds of items of food\nCafés should\nslash prices\nand give what's left to Students\nWhat will you bring to this role (e.g. experience, skills or qualities)?\n🏛️ Involved in\nLocal Government\nI have reached out to councillors and attended public consultations\nI have pushed Camden Council for more pedestrianisation around UCL\n🗣️ A year as Activities Representative\nLast year I\nfought\nfor commuter representation.\n30th October I'll be presenting to W&C Zone to push for pedestrianisation\n🚀 A Committee\nPowerhouse\nTreasurer of Musical Theatre\nTreasurer of Sign Language\nWelfare Officer of Public Speaking\nSocial Secretary of the Shakespeare Company\nExternals Officer of Stage Crew\nCollaborations Officer of Taylor Swift\n+ More!\nPlease summarise why students should vote for you.\n🏆 Societies Personality of the Year 24/25\nPresent beyond belief, always on campus, and connected like crazy\nMy\ninvolvement\ngoes beyond the societies that I serve on\n🤝 Working with past and present Saabs\nLast year I worked with the Postgraduate Saab to host events\nThis year I'm working with the A&E Officer to make sure\nSocieties are represented\nafter the Societies Officer vanished!\n⚙️ Already At Work!\nIt's slow going because I'm not in a position of much responsibility\nWhether you vote for me or not i'm going to keep working, being a Trustee will just get things going faster.",
+          "is_winner": true,
+          "initial_tally": 343.0,
+          "final_tally": 450.0,
+          "campaign_points": null
+        },
+        {
+          "name": "Sree Cavuturi",
+          "pronouns": "she/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/Sree%20election%20pic%201.jpeg?itok=MY4Ola4Y",
+          "election_statement": "(she/her)\nWhat do you hope to achieve in the role if you are elected?\nNo longer stuck in Policy Loop:\nLess back-and-forth.\nMore action\n. Support for clearer drafting, smoother execution.\nMaking change easier, not exhausting\n.\nNo Hidden Deals:\nOpen books, ethical choices. We deserve to know\nwho\nfunds our Union.\nNo more Green-washing:\nNo fossil fuels\n. No greenwashing. Real sustainability, across\nevery\nactivity on the Union.\nNo more long hauls:\nQuicker reimbursements\n. No more months-long waits to get your society’s tube bill back.\nI strive for a Union that is\ndriven by students, doesn't shy away from intersectional conversations and always ready for change.\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nOver\n2 years\nserving in the\nActivities Zone for Societies,\npushing for efficient funding systems, and sustainable sponsorships.\nExperience on funding panels as\nSocieties Officer.\nI understand how to draft\nclear, fair, and accessible funding criteria\nfor all societies, arts and non-portfolio alike, ensuring a fair chance for all.\nActively opposed the Shell sponsorship\nof Union previous year.\nSustainability isn't optional & I continue to stand by it\n.\nExperience as a\ncommittee member\nacross multiple societies,  I know where\nstudent voices get lost in translation - I’ll make sure they’re heard\n.\nPlease summarise why students should vote for you.\nGrassroots first.\nMy platform will amplify\nneglected, minority and intersectional voices.\nGood ideas shouldn't be lost in bureaucracy.\nI always go an extra mile to\npush for accessible, transparent policies.\nSustainability through collaboration.\nI am here to\npush for sustainable practices\nand foster collaboration across societies to embed them in all SU spaces.\nAs a committed, hands-on member with years of SU experience,\nI am here to refine, question, and represent.\nEvery voice will count. For mine to echo yours - vote Sree for Trustee\n.\nYours truly,\nSree.",
+          "is_winner": true,
+          "initial_tally": 353.0,
+          "final_tally": 455.0,
+          "campaign_points": null
+        },
+        {
+          "name": "Rohan Ahmad",
+          "pronouns": "He/Him",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/RohanAhmad%20Pic.jpg?itok=Eq298eHr",
+          "election_statement": "(He/Him)\nWhat do you hope to achieve in the role if you are elected?\nWE WANT BETTER.\nI don't want to talk about my problems, I want to hear yours.\nHere's how:\nWeekly feedback hours\n.\nIn person.\nEvery Friday for 2 hours. On campus.\nSo I can hear you.\nThrough a\nnew, dedicated Instagram account\nI will publish updates on\nevery\nmeeting, so you know what the person you voted for is doing.\nI will be responsible\nfor ensuring the SU is true to its mission of\nimproving your life\nat UCL - tackling issues of home, international, under/postgrad students.\nI will be responsible\nfor ensuring the SU is accountable and efficient, and that it achieves its charitable objectives.\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nAs the\nwinner\nof the 2025 Engineering\nRep of the Year Award\n, I recognise the work that needs to be done at UCL.\nWhether it affects 1 or 10,000 students,\nall\nissues deserve to be heard and tackled. Last year,\ndespite being a first year student\n, I was elected as a\nLead Departmental Rep\n.\nI pushed deadlines, hosted 3 new events, consistently communicated and therefore won the Engineering\nRep of the Year\nAward. I made dozens of strong connections in my department and faculty. I endeavour to\ncontinue\nmy proactivity, communication and dedication in this role to ensure\nyou\nhave the\nbest time\nat UCL.\nPlease summarise why students should vote for you.\nProactivity | Communication | Transparency\nCurrently serving in\n4\nUCL society\ncommittees\nand serving as\nLead Departmental Rep\nlast year, I have proven myself to be reliable. Seemingly the only first year, I was awarded the\nEngineering Rep of the Year\naward after\nworking really hard for my course mates.\nI believe I can actually demonstrate the skills others claim to have. I haven't promised any arbitrary changes, because I value your opinion and\nwon't act without it\n.\nI ask for your trust in being able to complete my duties and I promise\nproactivity\n,  strong\ncommunication\nand total\ntransparency\n.",
+          "is_winner": true,
+          "initial_tally": 408.0,
+          "final_tally": 487.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Sports Officer",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Sports",
+      "winners": [
+        {
+          "name": "Jim Roberts",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/DSCF5559%20Medium.jpeg?itok=QXi7Loeb",
+          "election_statement": "What will you bring to this role (e.g. experience, skills or qualities)?\nHey! I’m Jim, the Treasurer of Men’s Cricket and also one of your Sports Rep’s.\nThis is what I will bring to the role\n:\nThis year I have been a\nSports Rep\nworking with the Sports Officer to represent TeamUCL members and pioneer change.\nAs the\nTreasurer of UCL Cricket\n, I have gained a deep knowledge of Union systems and have been responsible for organisation and fundraising and sponsorship.\nI have extensive experience in leadership positions, sitting on the Sports Representative Group, Activities Zone and chairing the Sports Night Working Group. I have also been a key committee member Cricket.\nWhat do you hope to achieve in the role if you are elected?\nParticipation\n: Ensuring that sport is available for everyone, with support for clubs to create structured and accessible beginner programmes.\nMarketing\n: A lot of the amazing achievements of our clubs aren't celebrated. I would work with existing student media and the SU to improve coverage of what our clubs are doing and also generate exposure for small clubs.\nOne TeamUCL\n: Bridge the disconnect between TeamUCL and RUMS to boost UCL’s overall sporting presence. Continuing the development of UCL Leagues and Project Active.\nEfficiency\n: Simplifying union processes to make running clubs easier.\nPlease summarise why students should vote for you.\nSport has defined my university experience, and I want to help enhance the experiences of everyone involved in TeamUCL. My passion, combined with my prior experience, makes me highly suited for this role. I am deeply committed to driving positive change, improving access, and increasing enjoyment. Every student deserves the same opportunity to thrive that I have been afforded. I will work to break down barriers and create more inclusive opportunities so that all students, regardless of background or ability, can engage in sport and feel part of a strong, supportive community.",
+          "is_winner": true,
+          "initial_tally": 452.0,
+          "final_tally": 452.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Sports Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Sports",
+      "winners": [
+        {
+          "name": "Yan Tat Loo",
+          "pronouns": "He/Him",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/Yan%20Tat%20Loo.jpg?itok=epK1J7py",
+          "election_statement": "(He/Him)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nHaving been involved with TeamUCL for two years and serving as the current President for UCL Badminton Club, I've led the club to significant improvement in both team and social aspects. The team achieved outstanding performance in BUCS, while the social side introduced new activities and successfully expanded into UCL East to boost engagement. Having never missed a BUCS match in two years with Badminton Men's 1st, I’ve shown my dedication and my passion for sport. As Sports Rep, I am committed to bridging the gap between clubs and admin, drawing on my experience as an athlete.\nWhat do you hope to achieve in the role if you are elected?\nIf elected, I aim to work closely with TeamUCL staff to lead a variety of new and existing campaigns like This Girl Can, All Jokes Aside etc, making it easier and more accessible for students to participate in hosting and joining events. I will focus on ensuring campaigns are relevant, inclusive, and engaging. I aim to improve the communication between clubs and TeamUCL in delivering the events to ensure better participation and fulfilment. My goal is to increase involvement across UCL's sporting community and create a positive, lasting impact for all students involved.\nPlease summarise why students should vote for you.\nWith over 10 years in sports, especially badminton, I’ve honed my leadership and dedication. Seeing growth through small contributions drives me—helping others and making their day easier brings me true fulfilment. As your Sports Rep, I’m passionate about breaking down barriers and making sports accessible to everyone. I’m committed to building a community where sports are celebrated and feel like a second home. I’m always reachable, open to feedback, and committed to improving your sports experience. You’ve got enough to juggle with studies, so let’s make sports your happy place—together.",
+          "is_winner": true,
+          "initial_tally": 42.0,
+          "final_tally": 68.0,
+          "campaign_points": null
+        },
+        {
+          "name": "Josephine Winnick",
+          "pronouns": "she/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/Screenshot%202025-03-09%20at%2012.22.19%E2%80%AFPM.png?itok=WyINvewX",
+          "election_statement": "(she/her)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nThis year, I have held the positions of Gymnastics President, Netball Events Secretary, and Netball Captain. I can confidently say that each of these roles has taught me transferable skills such as leadership, organisation, and advocacy which would benefit the position of sports rep. Through both being a member of, and on the committees of these two clubs, I have an insight into how sports clubs run at UCL.   I feel that I would be able to adequately advocate for smaller developing clubs, and more established clubs that have such a huge effect on student life at UCL.\nWhat do you hope to achieve in the role if you are elected?\nI would love to bring even more focus to campaigns at UCL to get students involved in sports. My time at UCL would have been vastly different without the impact of TeamUCL, and through campaigns like Project Active, I believe there is even more scope to get people involved. A huge number of students attend Scala, and the focus of Sports Night could be more closely aligned with members of sports clubs at UCL; an earlier released ticket for sports clubs (as we all know how allusive those £3 tickets are...) would allow TeamUCL sports club easier opportunities for Wednesday night socials.\nPlease summarise why students should vote for you.\nSport has shaped my time at UCL, and I want to represent students to ensure TeamUCL is as inclusive and impactful as possible. With experience in two very different clubs, I understand both challenges and successes within TeamUCL. I will advocate for initiatives that enhance participation, accessibility, and club experiences. Whether you’re a dedicated athlete, or looking to make some new friends through sports clubs, I’ll work to make sport at UCL welcoming, rewarding, and fun for everyone.",
+          "is_winner": true,
+          "initial_tally": 124.0,
+          "final_tally": 76.0,
+          "campaign_points": null
+        },
+        {
+          "name": "Alina Phang LI Ren",
+          "pronouns": "she/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/Screenshot%202025-03-09%20at%2010.58.49%20PM.png?itok=UUaQRyQP",
+          "election_statement": "(she/her)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nHaving been highly involved in TeamUCL for two years, I'm very familiar with its operations. I served as Badminton Club's Treasurer & Women's Captain this year; under my leadership, we won the Women's Premier and LUSL mixed league\nand\nqualified for the European Universities Championships\nfor the first time ever\n, increased social membership by >20%, expanded to UCL East, increased weekly socials from 2x to 5x a week, introduced social coaching, and organised new events and collaborations. I bring experience and fresh ideas to the table, and am keen to work together to make things even better!\nWhat do you hope to achieve in the role if you are elected?\nFirst, as my club's greatest struggle this year has been booking courts, I hope to look into how we can provide better support for clubs regarding facilities. Second, I hope to increase communication between the clubs and staff, ensuring our athletes know the kinds of support available. Third, I hope to increase cohesiveness, creating an atmosphere similar to Varsity (where we see ourselves not as individual teams but one TeamUCL) that starts during and continues throughout the BUCS season. We should bring the captains together, or replicate the Varsity promotional initiatives, earlier on!\nPlease summarise why students should vote for you.\nI've proven myself as a competent and communicative leader who isn't afraid to go the extra mile for her players. I love my club, but I'm also super invested in our collective success as one TeamUCL — I'm ready to listen to and advocate for you. Specifically, I believe improving access to close facilities will facilitate (haha) team spirit and mutual support amongst our clubs — that's an area in which we lag behind the campus unis that have sports centres.\nI play badminton after all — let me be the racket that serves you. For better support, better facilities, and better cohesion, vote for me!",
+          "is_winner": true,
+          "initial_tally": 67.0,
+          "final_tally": 81.0,
+          "campaign_points": null
+        },
+        {
+          "name": "Luvya Pawar",
+          "pronouns": "He/Him",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/Screenshot%202025-03-10%20at%2011.46.15.png?itok=HgjEi1S2",
+          "election_statement": "(He/Him)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nI've spent the past 2 years organising and partaking in sports—I've been the 7-a-side secretary for the UCL Red Star FC for both my first and second year and the Sports Secretary for the Law Society this year. I am very familiar with the booking process at both Somers Town and Corams, which would make organising larger games and admin tasks very easy for me. I am also a Sports and Fitness Assistant at the TeamUCL gym which means I bring a lot of insight to this role. Aside from this I am very approachable and social and work well in teams which is important for collaboration in this role.\nWhat do you hope to achieve in the role if you are elected?\nI hope to boost engagement in sporting events especially in the capacity of the Alumni and Events role. To do this, I would implement regular communications with interested alumni.  I would aim to discuss ways to do this in the Activities Zones and work closely with the Sports Officer to understand where I would be able to make the most impact. I have already organised inter-society, faculty and alumni games this year as well as 3 law intervarsities. My goals are backed with experience in this regard and my deep understanding of sports and boosting engagement at UCL are vital to achieving them\nPlease summarise why students should vote for you.\nAs someone who has actively engaged in sports and related activities by working at the TeamUCL gym and representing Red Star FC in games as well as partaking in fundraising for the society as part of Movember, I clearly exhibit a lot of tenacity for the various aspects of this role. If I'm elected, I will be committed to improving the quality and attendance of events and assist the other reps and the Sports Officer wherever possible. I also play a variety of other sports and am a big advocate of the positive impact of engaging in physical activity on one's mental wellbeing.",
+          "is_winner": true,
+          "initial_tally": 138.0,
+          "final_tally": 76.0,
+          "campaign_points": null
+        },
+        {
+          "name": "Ethan Kao",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/Ethan%20Kao.jpg?itok=ynjoY3A3",
+          "election_statement": "What will you bring to this role (e.g. experience, skills or qualities)?\nEvery sporting event, from casual grass volleyball to BUCS finals, is filled with energy. I want to share my knowledge of volleyball and my passion for all sports with our entire community. I aim to lead TeamUCL in creating new campaigns that make sports more inclusive and accessible to everyone. Just as sitting volleyball introduced a new aspect of the sport and grass volleyball provided a more casual, safe space for players, I want to bring variations of the sports we love to different places, ensuring everyone feels included in UCL sports.\nWhat do you hope to achieve in the role if you are elected?\nThroughout my three years at UCL, I’ve developed a strong passion for sports and community. Having led the Volleyball Society as both Higher Education Volleyball Officer in my second year and as Vice President in my third year, I’ve been inspired to increase my involvement in volleyball events. Leading sitting volleyball during Disability History Month and reffing TeamUCL’s social league has extended my outreach beyond the volleyball society. My passion for outreach and involvement is what I'll bring to this role.\nPlease summarise why students should vote for you.\nI’m excited to run as your sports rep. Over three years at UCL, I’ve met amazing people and experienced phenomenal events organised by UCL students. I’ve also had the chance to lead and organise my own events. Many words describe these events—competitive, intense, fun—but one always stands out: Grit. Along with my organisational skills, I bring a deep sense of pride about being a UCL student—more specifically, a UCL athlete. I’m proud to represent UCL and will bring my grit and abilities to every event I’m involved in.",
+          "is_winner": true,
+          "initial_tally": 68.0,
+          "final_tally": 74.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Sports Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Sports",
+      "winners": [
+        {
+          "name": "Go Kitajima",
+          "pronouns": "he/him",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/IMG_4662.JPG?itok=fagVyQ3S",
+          "election_statement": "(he/him)\nWhat do you hope to achieve in the role if you are elected?\nHi, my name is Go, and I'm running to be your next Sports Rep.\nAs Sports Rep, I promise you the following:\nPush for more storage space for sports societies.\nExplore ways to achieve an improved, more efficient system for claiming back money.\nAttend EVERY Activities Zone, and advocate for the interests of all sports societies.\nI want societies themselves to be more included in decision making and policy making, and I hope to be a vessel for change and advocacy in order to achieve this.\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nBeing an active rugby player and having extensively done media work during the London Varsity Series, I believe that sports is one of the biggest things that\nunites\nthe UCL community.\nAs a student journalist, I have\nextensive knowledge\nof the functions of the Students' Union, something I believe our elected representatives have historically been lacking in. With this knowledge, I am in a strong position to more\neffectively push policies\nthat would benefit sports societies, and more importantly, get them passed.\nPlease summarise why students should vote for you.\nSports societies are, more than any other societies, reliant on\na functioning, communicating Students' Union\n.\nAs Sports Rep, I would work closely with the Sports Officer and the Sabbatical team to advocate for and pass policies that would\nmaterially improve and benefit\nsport societies, from a better refund system, a greater push for inclusivity, to improving storage space.\nMy policies are based on\nreal interactions\nand\nreal experiences\nthat I have had being a part of a sports club.\nVote for\nGO\nfor an\nauthentic voice, and strong advocacy\n.",
+          "is_winner": true,
+          "initial_tally": 149.0,
+          "final_tally": 163.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Arts Officer",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Arts",
+      "winners": [
+        {
+          "name": "Ben Francis",
+          "pronouns": "He/Him",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/DSCF3662.JPEG?itok=NjLilRJI",
+          "election_statement": "(He/Him)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nI’ve been heavily involved with ArtsUCL since I joined in 2023 across Musical Theatre, Shakespeare, Jazz, Drama, Live Music and Music Societies. I've performed in 9 blooms shows and over 20 off-blooms as an actor, musician and/or prod team member.\nI also co-created\nRattlepole\nwhich we are taking to Fringe this summer, ran the ArtsUnlocked Stage Combat series and am on committee for Shakesoc. I've seen ArtsUCL from more angles than most and will bring understanding, efficiency, inclusivity and an approachable friendly face to this role using my knowledge and experience.\nWhat do you hope to achieve in the role if you are elected?\nIncrease support for new members of the community\nMore non auditioned opportunities and improved spaces for these performances\nIncreased training space for artistic development\nImprove links between societies and ArtsUCL opportunities\nClearly signposting ArtsUCL skill development opportunities relevant to casting and performance\nImprove communication between the student body and staff of ArtsUCL to ensure student ideas and concerns are heard and acted on\nRaise awareness of links between societies and promote collaboration.\nIncrease standardisation, guidance and transparency in casting processes.\nPlease summarise why students should vote for you.\nI'd love the opportunity connect all the current and future members of all arts societies to each other and ArtsUCL. With more opportunities and collaboration than ever, I want the chance to continue to cultivate the growth of ArtsUCL into a healthier environment for creative development and enjoyment, whether performing, on prod team or in an audience. Many changes are happening within ArtsUCL and I believe as someone connected to so many across this wide community, I would be a great spokesperson in making sure that these changes continue to be what is best for us all, and what we all want.",
+          "is_winner": true,
+          "initial_tally": 236.0,
+          "final_tally": 300.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Societies Rep (Arts)",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Arts",
+      "winners": [
+        {
+          "name": "Ronan Venkat",
+          "pronouns": "He/him",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/RV_headshot_square.JPG?itok=wvnPsrxG",
+          "election_statement": "(He/him)\nWhat do you hope to achieve in the role if you are elected?\nI aim to improve the arts experience for students at all levels, mainly focusing on:\nTransparency and consistency\nIntroducing consistent guidelines for the production process across societies to encourage a culture of inclusiveness.\nContinuing to build ArtsConnect as a central hub for society communication, event promotion, and inter-society collaboration.\nPerformance venues: Working with UCL to improve access to affordable performance venues with enough pre-show tech time.\nWorkshops: Providing professional-led training sessions for artsUCL-applicable skills, especially production team roles.\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nMy experience in a range of arts societies, including Live Music, Musical Theatre, Jazz, and Stage Crew, has given me unique insight into UCL's student arts landscape. I’ve performed in eight Blooms shows and numerous small shows, music-directed several productions (including the record-breaking\nShrek\n(2024)), and sound-designed\nHome\n(2025). Currently, I’m music-directing\nSister Act\nand serving as Tech Officer for the Live Music Society. My extensive involvement in artsUCL has given me an in-depth understanding of the challenges arts societies face and the areas that need improvement.\nPlease summarise why students should vote for you.\nThe arts community at UCL provides an incomparable opportunity to explore any facet of performance and production irrespective of prior experience, and has led me to discover countless pursuits I wouldn’t have encountered otherwise. I’d like to spend my third year giving back to the community and utilising my skills to make an impact. My experience in a wide range of arts productions has given me a deep understanding of the challenges students and societies face and the knowledge and connections necessary to address them, which makes me an ideal representative for the artsUCL community.",
+          "is_winner": true,
+          "initial_tally": 69.0,
+          "final_tally": 69.0,
+          "campaign_points": null
+        },
+        {
+          "name": "Adam Cleary",
+          "pronouns": "He/Him",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/poem-pic.png?itok=LnQgMgfz",
+          "election_statement": "(He/Him)\nWhat do you hope to achieve in the role if you are elected?\nAs a\nresiding Societies rep\n, I pledge to continue communicating with societies to ensure they are kept informed of relevant policy, and to hold those in power accountable by voting in the interest of the arts.\nTo be completely honest, in this position there is precious little anyone can do except for vote on policy, and nothing tangible or useful will ever really make it to a zone to have such direct impact unless its a general policy like above.\nBut rest assured I have the interests of the arts at heart!\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nThis year I am serving on\nfour\narts societies:\n🎶 Treasurer for Musical Theatre\nI stepped up to the role when the society needed it\nnow tackling the one-thought impossible task of indexing our inventory\n🛠 Externals Officer for Stage Crew\nSupporting other societies in their shows around UCL\nWorking on comprehensive training documents\n🎭 Social Secretary for Shakespeare Company\nConnecting arts societies outside of performing spaces\n7 sonnets memorised and counting!\n🎤 Collaborations Officer for Taylor Swift\nMaking karaoke nights ad-free with a custom karaoke system\nPlease summarise why students should vote for you.\nI am Societies Personality of the Year 24/25\nMy committee positions speak for themselves, I am highly engaged across the arts, and very well connected.\nI have experience Working on Shows\nLast year I was on the crew for Shrek, A Monster Calls, Rhapsody and more!\nI also Assistant Produced 3 shows in term 3\nI may not be able to sing, I may not be able to act, but I can do admin to no end!",
+          "is_winner": true,
+          "initial_tally": 56.0,
+          "final_tally": 59.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Volunteering Officer",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Volunteering",
+      "winners": [
+        {
+          "name": "Rawleka Wilson and Inara André",
+          "pronouns": "She/Her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-03/IMG_1590_2.jpg?itok=sWqesbV5",
+          "election_statement": "(She/Her)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\n✅\nRawleka\n2 yrs as POC Student Officer\nAmplified marginalised voices through\nPhineas Pop-Up Toy Shop\n, providing free toys to 100+ local families\n1 yr volunteering\nOrganised child-led activities w/\nThe Kids Network\nCommunity First\nCreating\narts/crafts workshops\nwith Camden families\n✅\nInara\nGlobal Impact\nAs\nVP of IDEAS\n, built partnerships w/ SE Asian social enterprises\nSustainable Systems\nAs a sports EDI Rep, created\nlong term society-charity ties\nAdvocate\nFor better\nvisibility/accessibility\nof volunteering activities\nTogether?\nA powerhouse duo with global vision & a track record of\ngetting stuff done\nWhat do you hope to achieve in the role if you are elected?\n✅\nPledge\nTerm 1\nLaunch\nVolunteering Network\nto train 50+ society reps in building\nlasting charity partnerships\nTerm 2\nPop-up hubs in libraries/cafés for\n30-min volunteering\n(meal-packing, tutoring)\nTerm 3\nHost a\nBicentennial Ball\nto raise £5k+ for Camden causes\n🌟\nTransform Volunteering\nDecolonise\nCo-create exhibitions/podcasts w/ Camden’s marginalised communities eg Windrush oral histories\nFlex-Volunteer\nquick\n1-hr tasks\neg\nassembling hygiene packs/translating for migrant charities\nSocial Enterprises\nSeed funding for ventures like\nEcoStitch,\nupcycling w/ refugees or\nCode for Camden,\nfree tech classes\nPlease summarise why students should vote for you.\n✅\nProven Impact\nRawleka\ncreates\ncommunity solidarity\n(bridged UCL-Camden w/ toy shop + arts)\nInara\nchampions\nglobal equity\n(SE Asian social enterprises) + sustainable charity projects\n✅\nOur Blueprint\nDecolonise\nCo-create projects\nwith\nmarginalised groups, not\nfor\nthem\nEquity\nReject 1-size-fits-all volunteering + create micro-roles/remote tasks\nthat empower students juggling jobs/studies/caregiving\nSocials\nBuild friendships through mixers/team volunteering\nNeurodiverse-friendly\nProjects w/ quiet spaces + adjustable lighting\nWHY US?\nWe’re\nDIFFERENT w/\nno saviour complexes—just\nequity, action, + legacy!",
+          "is_winner": true,
+          "initial_tally": 0.0,
+          "final_tally": 0.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Volunteering Reps",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Volunteering",
+      "winners": [
+        {
+          "name": "Emily Burke",
+          "pronouns": "she/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/Profile%20Photo.jpg?itok=J4E2VIE2",
+          "election_statement": "(she/her)\nWhat do you hope to achieve in the role if you are elected?\nAs a Volunteering Rep, I aim to increase student engagement with volunteering opportunities and promote the benefits of volunteering for both individuals and the wider community. Volunteering provides opportunities for personal growth, motivation, and development, while also benefiting the wider community, such as promoting a more supportive culture and increasing impact through the relationships formed within volunteering schemes and charity work.\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nWith two years of experience, I am enthusiastic about promoting volunteering opportunities that give back to the community. Since 2023, I have worked with Girlguiding, where I gained my Unit Leader qualification and managed a Brownie unit for 7-to 10-year-olds. I have organised fundraising events, with proceeds reinvested in the unit to enhance the experiences of young members, such as residentials. I have also been volunteering for a local Autism & ADHD Parent Support Group, where I participate in fundraising events for community projects that support families with neurodivergent children.\nPlease summarise why students should vote for you.\nI will bring my two years of volunteering experience to the table to actively promote the opportunities available for students to get involved in their local area. My experiences through active engagement in two charities have led me to feel confident that I will be able to work collaboratively with the wider Activities Zone team at UCL to enhance student activities and help other students to appreciate the rewarding nature of being part of a supportive, friendly community, forming new friendships.",
+          "is_winner": true,
+          "initial_tally": 190.0,
+          "final_tally": 193.0,
+          "campaign_points": null
+        },
+        {
+          "name": "Shazil Kashif Sabeeh",
+          "pronouns": "He/Him/His",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/WhatsApp%20Image%202025-10-13%20at%2010.35.38.jpeg?itok=3-V_eG7p",
+          "election_statement": "(He/Him/His)\nWhat do you hope to achieve in the role if you are elected?\nIf elected UCL Volunteering Rep, I aim to make volunteering an essential and valued part of UCL life.\nTo provide immediate, high-impact digital and project-based opportunities, such as web design for a local charity or a one-week social media campaign, I will launch a \"Skills-Based Volunteering Drive.\"\nI intend to create a \"Community Impact Panel,\" which will meet termly with three to four significant charity partners and a rotating group of student volunteers, to make sure our volunteer work has a real impact. Direct communication and organised input on our strengths will facilitate growth.\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nI am ecstatic to contribute my extensive experience in volunteering, including teaching orphans, leading tree plantation initiatives, and organising impactful charity drives. As the President of Child Rights, I was instrumental in establishing the first child court in Pakistan, championing fair, free, and equal trials for children. Additionally, my leadership as the President of the STEM, Robotics, and German Societies has honed my abilities in effective leadership, community engagement, fostering collaboration, and executing complex projects with excellence.\nPlease summarise why students should vote for you.\nVote for me to transform UCL volunteering from a good opportunity into an essential experience. I'm ready to act on three core aims:\nSkills-Based Sprints: Creating\nshort, high-impact\ndigital roles to involve students from ALL faculties, boosting participation by 25%.\nImpact Panel: Establishing a direct feedback loop with local charities, ensuring our efforts are genuinely impactful and aligned with their needs.\nAlumni Network: Launching a career-focused network to demonstrate the value and appeal of volunteering.\nI don't just plan; I execute. Let's build a stronger community, together!",
+          "is_winner": true,
+          "initial_tally": 156.0,
+          "final_tally": 175.48,
+          "campaign_points": null
+        },
+        {
+          "name": "Monty Money",
+          "pronouns": "He/Him",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/IMG_4662.jpeg?itok=TIAz5CD8",
+          "election_statement": "(He/Him)\nWhat do you hope to achieve in the role if you are elected?\nMy main goal would be to encourage a greater involvement in volunteering from the UCL students. From speaking to people, it is very clear to me that the students have a real desire to help out and work with local charities. However, they are often too shy to start or even just unaware of how simple it is to begin their journey. By engaging the student body here at UCL, I believe that any stigma around volunteering will fall, the university will enjoy fantastic relations with the surrounding areas and, most significantly, the causes we wish to volunteer for will receive greater support.\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nVolunteering has played a crucial part in my upbringing and is a tenet I could never lose hold of. From volunteering for the Bloomsbury Football foundation since 14 I have great experience of the different levels of volunteering and how the responsibilities and duties differ. Over that period, I have had the privilege of seeing this wonderful charity blossom into the incredible organisation it is today which has given me great insight into the details of how to scale a charity and the necessary steps to increase the reach whilst never losing its founding essence.\nPlease summarise why students should vote for you.\nI have much experience in volunteering which has only increased my hunger to further participate and work hard for those in need. This experience has given me the necessary skill set (of compassion, hard work, leadership, and knowledge) to work in the role which I would undertake with great energy and passion. Whether volunteering for local food banks or writing letters to children in Burkina Faso, I believe that volunteering can take so many different forms each of which are as integral and admirable as the other and I would love to support UCL students in any of these forms.",
+          "is_winner": true,
+          "initial_tally": 218.0,
+          "final_tally": 200.6,
+          "campaign_points": null
+        },
+        {
+          "name": "Rutong Li",
+          "pronouns": "Bella",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/Bella.jpg?itok=02SDs7Ov",
+          "election_statement": "(Bella)\nWhat do you hope to achieve in the role if you are elected?\nIf I am elected as a volunteer representative, my main goal is to enable every student to participate in the activities more meaningfully. First of all, I will promote UCL's \"Volunteer Center\" and call on students to actively participate in volunteer activities. Secondly, I will help students find suitable volunteer services based on their different interests and time arrangements. Finally, I hope every student can feel that volunteer service is not merely \"something to do\", but a fulfilling growth - whether you can spare an hour each week or the entire afternoon.\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nI have some experience. I have been a volunteer teacher in primary schools offline for two years and have also recorded micro-lessons for students in Zimbabwe. All of these have taught me how to provide corresponding support to different people. I was also the minister of the Publicity Department in high school, which honed my organizational skills. I have also participated in the volunteer services of UCL, so I have some understanding of volunteer activities. As an active person, I won't just list opportunities; I will help students find positions that match their interests and schedules.\nPlease summarise why students should vote for you.\nI'm not just \"running for a role\", but I'm committed to making volunteer service serve you. I have organizational experience and a passion to ensure that volunteer service suits you. I'll listen to what you want and take action. Whether you are just starting out as a volunteer and don't know where to begin, or an experienced volunteer looking for greater challenges, I will do my best to help you. Besides, I will ensure that volunteer activities are interesting, can improve myself and give back to society. Choose me and let's make volunteer service something everyone looks forward to together.",
+          "is_winner": true,
+          "initial_tally": 146.0,
+          "final_tally": 172.05,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Societies Officer",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Societies",
+      "winners": [
+        {
+          "name": "Jesse Ashdown",
+          "pronouns": "He/Him",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2026-01/Jesse%20Face.jpeg?itok=ej_3mspg",
+          "election_statement": "(He/Him)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nSociety President - Sci-Fi & Fantasy - we host\nLOADS\nof events; I know how it feels to not be supported by the Union.\nI was the\nONLY\nnon-Union member at an Acitivities Zone...\nERGO I WAS THE ONLY NON UNION PERSON THAT WENT BECAUSE THEY ACTUALLY CARED\nsorry for caps\n...But now I'm Societies rep!\nSkills\nI'm good at forcing change\nI'm on the ball and professional (\nenough\n)\nI'm good at getting to the heart of an issue - I dont entertain\ncrap\n.\nQualities\nI have no shame and therefore have n0 qualms with asking difficult questions\nI'm\nextremely\ncritical, yet have no issue changing my mind\nI'm very persistent\nWhat do you hope to achieve in the role if you are elected?\nI have proposed a policy to restructure SocietiesUCL in a way that would better benefit general interests societies. It is going to be discussed at the next meeting!\nWe need actual University-wide social events on the Yearly calendar. A few ideas I have are:\nIntra department competition - e.g Sciences Quiz - IN progress\nUCL Matchmaking - Stay tuned\nGeneral Interests Fair - next year\nGrants for society collaborations\nCreate a system for easier inter-university society event hosting\nPush for better society storage (Archery range is ick)\nI\nwill\nachieve actual change.\nPlease summarise why students should vote for you.\nIm applying for this role because I'm old, and bitter, and in my final year.  I truly care about societies at UCL, and want students to have what I did not - a student community. I'm not doing this for my CV; I have a job that I'm hopefully going to do after I graduate, which has NOTHING to do with this.\nI'm sick and tired of nothing changing. I'm tired of the fact that general interest societies are disrespected, depsite making up the vast majority of societies in Societies UCL.\nI'm EXTREMELY passionate about this.\n( I also won the last election by 200 votes but they decided to redo it so...)",
+          "is_winner": true,
+          "initial_tally": 91.0,
+          "final_tally": 91.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Societies Rep (Non-portfolio)",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Societies",
+      "winners": [
+        {
+          "name": "Jasmine Gao",
+          "pronouns": "She/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/IMG_6557_0.jpeg?itok=jBdU3oS-",
+          "election_statement": "(She/her)\nWhat do you hope to achieve in the role if you are elected?\nMy goal is to reduce the information gap and enable every student, especially freshmen like me, to enjoy the societies without any barriers. I've found many students remain hesitant to join societies, still settling in. I can approach the situation through guiding them to obtain information more efficiently, equally and friendly, and I will frequently participate in various activities, to collect more trivial problems and bring them up at the meetings to promote solutions, ensuring that the policies we vote for in the Activities Zone truly represent the needs of the majority of students.\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nMy academic schedule allows me to devote sufficient time and energy, which means I can fully undertake the position with great efficiency, ensuring that the work progresses on schedule.Since childhood, I have accumulated some experience in giving speeches under the national flag, so I can effectively represent the collective opinions and convey them to the decision-makers.In addition, I am good at observing and understanding others' emotions, and am accustomed to paying attention to the needs and feelings of other people, which helps to identify problems in time and promote team collaboration.\nPlease summarise why students should vote for you.\nVoting for me is choosing a true listener, rather than just a representative. I am approachable, responsible and highly value everyone's ideas.I am also a person full of enthusiasm for life and hoping to share that spirit with everyone I meet. As an international student, I am committed to championing the needs of our diverse community. With my experience of quickly adapting and already integrating into student life at UCL, I am capable of guiding and assisting those who haven't yet adapted, helping everyone find a sense of belonging, and ensuring voices are clearly heard and taken seriously.",
+          "is_winner": true,
+          "initial_tally": 127.0,
+          "final_tally": 127.0,
+          "campaign_points": null
+        },
+        {
+          "name": "Simon Pryor",
+          "pronouns": "he/him",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/IMG_1082.jpeg?itok=TrMPamxv",
+          "election_statement": "(he/him)\nWhat do you hope to achieve in the role if you are elected?\nMy ambition is help our societies become the leading source of social, cultural and hobby-oriented life at UCL that they are destined to be.\nIn particular, I aim to push changes that allow societies to become ever more inclusive. This includes:\nEncouraging UCL East and School of Management Events, by setting up a separate What’s On calendar for those campuses, and helping promote those events in communal spaces.\nCo-operating with network leaders to help societies better accommodate their communities.\nFacilitating easy collaboration between societies, and between societies, clubs and networks.\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nI am currently serving as Treasurer for a hobby-based society, and have taken on many tasks in a small committee, which has built both my experience as a leader and a team player.\nI have maintained several full-time jobs in the past, and have experience of studying while working, splitting responsibilities while managing time effectively.\nI empathize with the experience of society members, having been a member of a broad range of societies.\nFurthermore, as a mature and neurodivergent student I understand the importance of representing the concerns of minority and disadvantaged students.\nPlease summarise why students should vote for you.\nStudents should vote for someone who takes their leadership responsibilities seriously, who endeavors to deliver on whatever mandate they are given.\nThey should vote for someone who cares about making our societies the best they can be for all our students, of all cultures, genders and ages, whether they be attending Bloomsbury, UCL East or Canary Wharf, undergrad or postgrad, commuting or living on-site and studying part-time or full-time.\nThey should vote for someone who knows and understands societies and will work tirelessly to make them even better.",
+          "is_winner": true,
+          "initial_tally": 108.0,
+          "final_tally": 215.0,
+          "campaign_points": null
+        },
+        {
+          "name": "Sree Cavuturi",
+          "pronouns": "she/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/Sree%20election%20pic%201_0.jpeg?itok=5H5kPify",
+          "election_statement": "(she/her)\nWhat do you hope to achieve in the role if you are elected?\nBeyond voting for me as your Societies Rep, please have a look my\nStudent Trustee nomination\n&\nvote for Sree\nto see more of what I hope to achieve in the Union overall.\nAs a Societies Rep,\nI aim for:\nSimplify funding processes\n, reduce bureaucracy, and make criteria clear and accessible for all societies.\nStrengthen communication between societies and the Union\n, ensuring student voices are heard.\nEmbed sustainable practices\nacross societies,\nsupport smaller and newer groups\n,  so every society has the tools to thrive and make a positive impact.\nVote Sree for Trustee!\nVote Sree for Societies Rep!\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nOver\n2 years\nserving in the\nActivities Zone as Societies Rep and Officer,\npushing for\nefficient funding systems, and sustainable sponsorships.\nExperience on funding panels as\nSocieties Officer.\nI understand how to draft\nclear and accessible funding criteria\nfor all societies,\nensuring a fair chance for all.\nActively opposed the Shell sponsorship of Union previous year.\nSustainability isn't optional & I continue to stand by it.\nExperienced as a\ncommittee member\nacross multiple societies,  I recognise where\nstudent voices get lost in translation - I will make sure they’re heard\n.\nPlease summarise why students should vote for you.\nGood ideas shouldn't be lost in bureaucracy.\nI always go an extra mile to\npush for\naccessible, transparent policies.\nFaster reimbursements\nso societies get their funds when they need them.\nI'll\namplify sustainable practices\nacross societies to embed them in all SU spaces.\nIf elected as a Societies Rep,\nI'm here to constantly\nrefine policies and represent student voices effectively.\nBeyond this, I ask for your vote for my Student Trustee nomination.\nWith your support, I can make an even bigger impact across the Union, both in the Activities Zone and the Executive Body.\n# Vote for Sree.",
+          "is_winner": true,
+          "initial_tally": 243.0,
+          "final_tally": 123.75,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Societies Rep (Student Media)",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Societies",
+      "winners": [
+        {
+          "name": "Robert Delaney",
+          "pronouns": "He/Him",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/IMG_8745.jpeg?itok=NKNL4G5P",
+          "election_statement": "(He/Him)\nWhat do you hope to achieve in the role if you are elected?\nIf re-elected as Media Rep, I will ensure the following policies are delivered. Many build on my work from last year and aim to enhance the visibility and support of student media at UCL.\nIncreased funding for printing services through clear access routes for all student publications\nMasterclasses on writing successful Student Publication Award nominations\nExternal speaker and social events for all student media, with diverse, representative guests\nStrengthen the presence of student media on campus through expanded media drop bins in SU cafes and bars\nMedia passes for arts & varsity events\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nI have a wealth of experience in student media at UCL. As Media Rep in 24/25, I oversaw the expansion of student media representation within SU discourse and on campus. I also created and passed the IPSO student media compliance policy, ensuring publication output remains compliant and consistent.\nI  also served as an Editor at The Cheese Grater for 3 years, writing on a range of topics. Last year, I oversaw the publication’s most successful run in over a decade, bringing student journalism back to the forefront of campus life through cutting-edge, student-focused (and award-winning) reporting\nPlease summarise why students should vote for you.\nIn short, my time at UCL has been defined by student journalism. It has been my personal highlight of university life. Indeed, beyond my experience in media-related roles, my greatest asset is the passion, care, and commitment I have for student journalism at our university. I believe student journalism is essential to a vibrant student life, and I’m committed to ensuring it remains a core part of the SU’s vision and priorities. If elected, I will ensure that no publication is left behind, and that we all can flourish in our diversity, making UCL’s student life brighter for all.",
+          "is_winner": true,
+          "initial_tally": 45.0,
+          "final_tally": 45.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Welfare Reps (Societies)",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Societies",
+      "winners": [
+        {
+          "name": "Mlak Elbuzidi",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/headshot%20small%20file.jpg?itok=LNvJyNps",
+          "election_statement": "What do you hope to achieve in the role if you are elected?\nI bring empathy, organisation, and experience in community care. I’ve supported friends and peers through activism burnout, family pressure, and the general emotional weight that comes with being visibly political at university. I’m good at listening and noticing when people start to withdraw, and I take initiative in checking in and creating calm where things feel heavy. I’m dependable, grounded, and deeply committed to ensuring that everyone in SJP feels safe, valued, and supported.\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nI bring experience, empathy, and a strong understanding of our community’s needs. As last year’s SJP Vice President, I worked closely with members to support both the emotional and organisational sides of our activism. I understand the intensity that comes with mobilising around Palestine, especially in the face of institutional pushback, and I’ve learned how to hold space for others while keeping our work sustainable. I’m grounded, approachable, and committed to making sure everyone in SJP feels seen, supported, and cared for.\nPlease summarise why students should vote for you.\nI understand how important care and community are to sustaining our work. I’ve been involved in organising, mutual aid, and political spaces for several years, and I’ve seen how easily people can burn out or feel isolated when the focus is only on action. I have experience supporting peers through difficult moments, whether that’s academic pressure, activism fatigue, or personal struggles. I’ve learned how to hold space for people in ways that are calm and practical to ensure everyone in SJP feels supported and that our work together remains sustainable.",
+          "is_winner": true,
+          "initial_tally": 264.0,
+          "final_tally": 264.0,
+          "campaign_points": null
+        },
+        {
+          "name": "Shreyasi Tripathi",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/IMG_3446_0.jpg?itok=UlKLDiCZ",
+          "election_statement": "What do you hope to achieve in the role if you are elected?\nAs Welfare Rep, I'll create  safe spaces through regular check-ins and accessible support channels that respond quickly. I'll establish clear pathways for reporting concerns with direct action. I'll push for tangible resources: subsidized therapy access, emergency support funds, and practical help navigating university systems. I'll organize peer support networks and wellness events addressing real issues. I'll connect members with mental health services, academic support, and financial assistance. This role is about making welfare accessible and effective - ensuring no member struggles alone.\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nI've provided direct support as a Student Counsellor in high school,  addressing student wellbeing issues firsthand. At Kids Focus Labs, I managed client relations by addressing concerns and providing timely solutions - skills directly applicable to welfare support. I organised workshops and events, coordinating resources and support systems for diverse student needs. I established effective communication channels and created collaborative environments where people felt heard and safe. I don't just sympathise - I take action and ensure people get the help they need when they need it.\nPlease summarise why students should vote for you.\nThree reasons why you should vote for me:\nBETTER ACCESS - decreasing bureaucratic challenges one issue at a time\nQUICKER RESPONSES - I spot problems quickly and solve them even quicker\nSUPPORT NETWORKS - better safe spaces and a stronger sense of community\nVOTE FOR ME IF YOU WANT ACCESSIBLE WELFARE!",
+          "is_winner": true,
+          "initial_tally": 258.0,
+          "final_tally": 258.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Hall Community Officer for Arthur Tattersall and John Tovell House",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Hall & Community",
+      "winners": [
+        {
+          "name": "Lola Robinson",
+          "pronouns": "she/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/IMG_0206%205.jpg?itok=ihP9eKh-",
+          "election_statement": "(she/her)\nWhat do you hope to achieve in the role if you are elected?\nMake Gower Street Houses the happiest, most fun UCL accommodation\nOrganise exciting hall events: games nights, movie nights, celebrations, themed parties and more!\nOrganise study sessions to force each other to get amazing grades\nAct as a voice for residents, representing their concerns and ideas to staff\nCreate a welcoming, social and inclusive environment\nEncourage the celebration of diversity in halls through activities\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nI will make effort to actively reach out to residents to find out their opinions and ideas, so I can truly represent them.\nI have great time management and will actually attend necessary meetings.\nI am always open to new ideas and perspectives.\nI am experienced in representing students ( I worked as Activity Leader at SUL International Summer Camp).\nI have an innovative mindset and will create new ideas for hall activities/events.\nPlease summarise why students should vote for you.\nI believe we should maximise the enjoyment of living in halls.\nI will put in the time and effort to organise fun events - from chill nights to big activities.\nI will listen to your ideas, concerns and feedback and act on them.\nI will keep communication clear so everyone knows what is happening.\nI will promote good hygiene and clean shared spaces.\nVOTE LOLA FOR HALL COMMUNITY OFFICER!",
+          "is_winner": true,
+          "initial_tally": 23.0,
+          "final_tally": 23.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Hall Community Officer for Astor College",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Hall & Community",
+      "winners": [
+        {
+          "name": "Christal Chung",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/selfie2_2.jpg?itok=nU2yAIVw",
+          "election_statement": "What do you hope to achieve in the role if you are elected?\nAs a first-year international student, I know how important it is to feel welcomed and connected in a new environment. As Community Officer, I hope to create a friendly and inclusive atmosphere at Astor College where everyone feels at home, no matter their background. I want to organise a variety of events, both social and cultural, that help residents meet new people and form meaningful friendships. I also hope to encourage open communication and collaboration among residents, so that everyone feels their ideas are valued and that Astor is a supportive and enjoyable place to live.\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nI bring enthusiasm, empathy, and strong organisational skills from my experience in Girl Guides and the student council, where I helped plan team-bonding activities and school-wide initiatives. These experiences taught me how to lead collaboratively, listen to others, and create inclusive spaces where everyone feels involved. I am approachable, reliable, and eager to make a positive impact. As Community Officer, I will bring energy, creativity, and dedication to planning events that connect people, celebrate diversity, and make hall life enjoyable for everyone.\nPlease summarise why students should vote for you.\nI genuinely care about creating a welcoming, inclusive, and vibrant community at Astor College. As a first-year international student, I know how meaningful it is to feel supported and included, especially when adjusting to a new place. I want to ensure everyone has the chance to make friends, share experiences, and feel part of Astor College. With my leadership and event-planning experiences, I will bring organisation, creativity, and enthusiasm to the role. I will also listen to residents’ ideas and work hard to make Astor a place where everyone feels valued and proud to call home.",
+          "is_winner": true,
+          "initial_tally": 38.0,
+          "final_tally": 38.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Hall Community Officer for Bernard Johnson House",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Hall & Community",
+      "winners": [
+        {
+          "name": "A B M Najmus Sakib",
+          "pronouns": "Najmus",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/Sakib%20New%20Passport%20Pic.jpg?itok=mJZrYZhK",
+          "election_statement": "(Najmus)\nWhat do you hope to achieve in the role if you are elected?\nI aimed to achieve a lifetime experience of working with one of the best student communities. It will provide me with an opportunity to connect with people from diverse groups. I will be able to share my cultural values and hear from others. It will create a window to meet and greet new people. Also, it will help me to sharpen my leadership skills. Thus, the position will engage me in people management and allow me to be enlightened by the beauty of a multicultural environment. I am a passionate learner and thrive in team environments, particularly those that are culturally diverse.\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nIn my early life, I actively engaged in non-academic sectors. I participated in different social activities, including firefighting and crisis management. During my master's program, I served as the\nprogram coordinator\nfor the Tilburg Law School. My key responsibility was to coordinate my classmates' expectations and inform key personnel, with the goal of continuous program development. However, I served my class as an elected\n'Class Representative'\nat both the undergraduate and postgraduate levels, which reflects my capacity to support a community and ensure their well-being adequately.\nPlease summarise why students should vote for you.\n\"I am\" Vs. \"We are\": Najmus believes in \"We are...\"\nThe BJH is a place where families and children from diverse cultures reside in peace, harmony, and with mutual respect.\n\"We are\"\ndetermined to keep this spirit high and ensure a lifetime experience, especially for our children. This way, once they become adults, they will cherish the memories at BJH as some of their magical moments in life, just as\n\"We\"\noften recall our childhood days, which were the best days of our lives.",
+          "is_winner": true,
+          "initial_tally": 11.0,
+          "final_tally": 11.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Hall Community Officer for Frances Gardner House and Langton Close",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Hall & Community",
+      "winners": [
+        {
+          "name": "Jagravi Singh",
+          "pronouns": "She/Her/Hers",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/Jagravi%20Singh%20Profile%20.jpeg?itok=YTOZgRT2",
+          "election_statement": "(She/Her/Hers)\nWhat do you hope to achieve in the role if you are elected?\nI hope to establish a monthly feedback loop, empower student-led initiatives and skill development, and launch a monthly newsletter celebrating student work. For monthly feedback, I’ll open an anonymous online form to collect students’ ideas about events, initiatives, and academic life. In terms of skill development, I’ll coordinate opportunities in podcasting, marketing, or leadership workshops to make it easier for showcasing creativity. The monthly newsletter will include students’ stories, art projects, and other achievements, which will be open for students to share beforehand.\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nIn Vancouver, I worked with the Malaysian consulate to plan events and build partnerships with sponsors, creating opportunities. As an event coordinator, I organized diverse cultural activities, trivia nights, and museum tours for over 200 students, balancing logistics with creativity to ensure inclusive and memorable experiences. As a Cultural Ambassador at UBC, I gained strong communication and interpersonal skills by guiding students through campus tours and downtown exploration activities. These experiences reflect my ability to organize impactful events for the wider UCL community.\nPlease summarise why students should vote for you.\nAs a multicultural individual, I’m open to exploring new places, clubs, and ideas. Through each new country, city, or school I’ve visited, I have always given back to the community or gained new experiences, whether by starting clubs, going on Mangrove visits, or writing articles. I believe these experiences go together with the Student Representative role as they seek to guide students holistically. It goes with the quote I preach from the film ‘A Tourist Guide To Love’, “A tourist wants to escape life; a traveler wants to experience it.”",
+          "is_winner": true,
+          "initial_tally": 25.0,
+          "final_tally": 25.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Hall Community Officer for Ian Baker House and Ramsay Hall",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Hall & Community",
+      "winners": [
+        {
+          "name": "Benjamin Crowson",
+          "pronouns": "He/Him",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/Hall%20Photo.jpg?itok=yVHObmIV",
+          "election_statement": "(He/Him)\nWhat do you hope to achieve in the role if you are elected?\nI would like to achieve a positive experience of residing in Ramsay Hall and Ian Baker House for all students and staff. I would do this by:\nMaking sure every student feels connected, supported and represented\nBuilding a community in the accommodation by holding inclusive events\nIncreasing engagement at functions to make sure everyone is welcome and no one is left behind\nImprove our recycling, increasing the number of bins for waste such as paper, tins and plastics\nFundraising events, such as cake sales, to raise money for charities\nUsing the TV room for events like Eurovision and football\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nIn the past, I have volunteered at a museum as a tour guide. Before I could fully take my position I completed training on Health and Safety, Safeguarding and EDI. Whilst working at the museum I worked with the staff and other volunteers to effectively deliver outstanding visitor experience. I recieved excellent feedback from Visit England. Whilst at college I was on the student council as the Charity officer. During my time, we raised large sums of money for a variety of causes including Children in Need, Red Nose Day, a local veterans group, a homeless shelter and Macmillan Cancer Support.\nPlease summarise why students should vote for you.\nI am going to listen and engage with members of our community. If I am personally unable to help with an issue, I will relay the problem to the appropriate professional. In previous positions I have been credited with being incredibly approachable. If elected I will:\nOrganise end of term celebrations\nIncrease engagement with events\nHold charity and fundraising events\nInvestigate the possibility to celebrate national TV events including Eurovision, Brit Awards and sporting fixtures\nImprove waste management for environmental reasons\nOther fresh ideas to make our halls more engaging",
+          "is_winner": true,
+          "initial_tally": 49.0,
+          "final_tally": 58.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Hall Community Officer for New Hall - Caledonian Road",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Hall & Community",
+      "winners": [
+        {
+          "name": "Ali Al-Mossawe",
+          "pronouns": "He/Him",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/Me.jpg?itok=6JjDqobN",
+          "election_statement": "(He/Him)\nWhat do you hope to achieve in the role if you are elected?\nI hope to achieve a lot as our Hall Officer. Mainly a genuine sense of community and connection, by organizing and running a variety of fun events, from movie nights to cooking sessions to study groups to spontaneous hangouts. And I promise to ensure you all feel included :)\nI also plan to be someone you can turn to if you ever need support/advice, your concerns voiced, or just a friendly chat. I want to bring good vibes, creativity, and a bit of chaos (the fun kind) to make hall life something we’ll all actually remember and enjoy.\nBecause halls should feel like a home, not just accommodation.\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nI offer an easygoing but confident attitude to this role, and I'm someone who's supportive, approachable, and more than happy to help. I enjoy connecting with people, helping out when needed, and keeping the atmosphere positive. My years of prior experience as a peer tutor, Best Buddies International programme member and class representative give the me strong communication, leadership, and teamwork, so I know how to balance responsibility with good vibes and Ill bring that same energy to make hall life something we can all remember.  Also Ill bring more food to the common room :o\nPlease summarise why students should vote for you.\nYou should vote for me because I have and will be completely transparent about my ideas and plans, and I will ensure you are all involved in decision making and discussions. Moreover, from my own experiences, I completely understand how overwhelming it may be to suddenly change your environment, so I will personally make sure all of your voices are heard by unions and accommodation staff and resolve any issues swiftly. Finally, my prior work experiences required the same attitudes, skills and qualities, equipping me with most of the attributes needed to make New Hall your new home truly :)",
+          "is_winner": true,
+          "initial_tally": 22.0,
+          "final_tally": 22.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Hall Community Officer for One Pool Street",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Hall & Community",
+      "winners": [
+        {
+          "name": "Eliora Iyere",
+          "pronouns": "she/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/WhatsApp%20Image%202025-10-08%20at%2021.45.44.jpeg?itok=2XrrvtDx",
+          "election_statement": "(she/her)\nWhat do you hope to achieve in the role if you are elected?\nIf i got the role my goal would be to bring together the community in One Pool Street, although there are Flourish organised events in the common room, i think it be nice to have mini societies and more events here, such as games nights and even study sessions a exam season comes along, cause i understand not everyone wants to or can travel to centeral for them. i hope in this role i can be a friendly face that you can talk to and confide in, As although i wouldnt call myself the most extroverted. I am always happy to talk to someone new and make new friends.\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nI think i would be a good choice for this role as i have experience with managing people in social settings as i was Form Captain for 2 years which i think has helped my interpersonal skills making me more suited to leadership roles. As well as this i have experience from competitions such as UKSDC which means im used to working with people and coming up with solutions that suit everyone. I'll take feedback seriously and make a active effort to improve myself and my surroundings for the better.\nPlease summarise why students should vote for you.\nI want to bring the One Pool Street community closer together through fun events like game nights, study sessions, and mini societies.\nI’m approachable, friendly, and always open to feedback and suggestions.\nI have leadership experience as a two-year Form Captain and teamwork skills from competitions.\nI’ll listen to everyone’s feedback and suggestions and work hard to make One Pool Street a welcoming, connected place for all.\ni hope i have your vote",
+          "is_winner": true,
+          "initial_tally": 49.0,
+          "final_tally": 49.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Hall Community Officer for Prankerd and Schafer House",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Hall & Community",
+      "winners": [
+        {
+          "name": "Aliza Mallal",
+          "pronouns": "She/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/inbound3786869051436796821.jpg?itok=imYHAaUw",
+          "election_statement": "(She/her )\nWhat do you hope to achieve in the role if you are elected?\nI hope to host many fun events in schafer house so people can get to know one another and become friends. Hopefully through things like big big dinners or parties or even calm things like knitting or movie nights.\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nI have been house captain in the past which has given me experience in coordinating events and leading people.\nPlease summarise why students should vote for you.\nPeople should vote for me because I want to make Schaefer a more lively and connected community. I know how kind fun and sociable the people are here and I’m passionate about making whatever things tbey want to make this year memorable  happen. I love talking to people, meeting new faces, and building real connections. My goal is to make Schaefer feel like home, where everyone knows they belong. I’ll always be there for anyone who needs me, even if it’s 3 a.m., my DMs are open. I’m here to serve the people and make Schaefer more fun, welcoming, and united.",
+          "is_winner": true,
+          "initial_tally": 21.0,
+          "final_tally": 21.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Hall Community Officer for Urbanest St Pancras",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Hall & Community",
+      "winners": [
+        {
+          "name": "Syed Rayan Azeem",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/Azeem%20Pic.jpeg?itok=fwDeTi29",
+          "election_statement": "What do you hope to achieve in the role if you are elected?\nIn my three weeks at Urbanest St Pancras I have noticed that there have not been many opportunities for us to connect. I want to change that by organising fun socials, games and events where everyone feels welcome and included. Hey, I’m Azeem, studying MSc Mechanical Eng at UCL and I love bringing people together. If elected, I hope to achieve a lively and supportive hall where residents can enjoy their time, build lasting friendships and always know they have someone to turn to. Together we can create the most vibrant and friendly community.\nLet’s make Urbanest feel like home for everyone!\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nAs someone who did my undergraduate in London and has lived in both halls and private student accommodation, I know the ins and outs of student life here. That experience means I understand what makes a hall feel welcoming and what can sometimes be missing. I’ll bring enthusiasm, creativity and positivity to the role, making sure our events are fun and inclusive. I enjoy bringing people together, and I’m confident I can help Urbanest become a lively, supportive and connected community.\nPlease summarise why students should vote for you.\nYou should vote for me because I understand what it feels like to move away from family to pursue studies. I know how important your social life is in making sure you don’t feel homesick and instead feel included, welcomed, and able to enjoy your time here. With my experience of living in both halls and private accommodation in London, I know what helps students feel connected. If elected, I’ll bring energy, positivity, and creativity to organise events that make Urbanest a true home.\nOur hall, our community, our home!",
+          "is_winner": true,
+          "initial_tally": 17.0,
+          "final_tally": 17.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Postgraduate Hall Community Officer for 109 Camden Road (Ann Stephenson, Ifor Evans, Max Rayne and Neil Sharp House)",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Hall & Community",
+      "winners": [
+        {
+          "name": "Haixuan Xin",
+          "pronouns": "she",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/6.jpg?itok=DcLyIIQp",
+          "election_statement": "(she)\nWhat do you hope to achieve in the role if you are elected?\nIf elected, I will work to build a friendly, inclusive and respectful hall community. I hope to organise engaging social events, encourage cross-cultural connections, and ensure all voices are heard. With my teaching background and leadership experience, I aim to support both residents’ wellbeing and academic focus, making our hall a safe and enjoyable place to live.\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nI bring strong experience in teaching, leadership and community support. Having already completed a master’s degree and now pursuing my second in Education and Technology at UCL, I have developed excellent communication and organisational skills. My international background allows me to understand and respect diverse perspectives, while my maturity helps me act responsibly in challenging situations. I am approachable, reliable, and committed to creating an inclusive and supportive hall community where every resident feels respected and valued.\nPlease summarise why students should vote for you.\nYou should vote for me because I have both the experience and the dedication to make our hall a welcoming and supportive community. With a strong background in teaching, proven leadership skills, and the perspective of an international postgraduate with diverse life experience, I understand how to listen, represent, and act on residents’ needs. I will work hard to ensure your voices are heard, organise activities that bring people together, and promote a respectful environment where everyone feels at home.",
+          "is_winner": true,
+          "initial_tally": 15.0,
+          "final_tally": 16.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Undergraduate Hall Community Officer for 109 Camden Road (Ann Stephenson, Ifor Evans, Max Rayne and Neil Sharp House)",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Hall & Community",
+      "winners": [
+        {
+          "name": "Botond Gracza",
+          "pronouns": "He/Him",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-09/IMG_3637.JPG?itok=2J1J60qF",
+          "election_statement": "(He/Him)\nWhat do you hope to achieve in the role if you are elected?\nUni’s more fun when the place you live feels like home. I want our hall to be somewhere people connect, make friends and have a good time. I’m talking epic themed nights, chill movie evenings, spontaneous food socials and fun events that make uni life feel bigger than lectures and deadlines.\nI want everyone to feel part of it, whether you’re super social or more laid back. And I’ll always listen to what people want so we can plan things together. Basically, I want this place to be the kind of hall everyone remembers as the highlight of first year.\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nI genuinely enjoy bringing people together, and I think that’s the most important part of this role. I’ve worked with younger students as a maths tutor, so I know how to communicate clearly, stay patient and help everyone feel included. I’ve been a youth football referee, which taught me to stay calm and manage issues.\nI am organised, reliable and full of ideas, but I also listen and adapt to what people want. Most importantly, I care about creating a space where everyone feels welcome. I’m confident I can bring energy, creativity and a team-player mindset to make hall life better for everyone.\nPlease summarise why students should vote for you.\nVote for me if you want our hall to be more than just a place to sleep. I want it to be where friendships start, stories happen and boring weeks suddenly get interesting. I’ll bring energy, creativity and proper effort into planning events you’ll actually want to go to, while making sure everyone feels part of things. Most of all, I care about creating the kind of vibe that makes you look back and say, “living here was the best part of first year.”",
+          "is_winner": true,
+          "initial_tally": 26.0,
+          "final_tally": 26.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Faculty of Arts and Humanities UG Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Faculty Reps",
+      "winners": [
+        {
+          "name": "Hannah Stanley",
+          "pronouns": "She/ Her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/DSC03693.JPG?itok=pw6bn7eI",
+          "election_statement": "(She/ Her)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nWith over a year’s experience as Lead Departmental Representative at Slade, I bring a collaborative, solutions-focused approach and a strong commitment to amplifying student voices. I am approachable and confident, engaging with both students and staff. I value inclusivity and will work to ensure all students across disciplines and backgrounds feel represented. With a clear understanding of the challenges arts and humanities students face, I aim to bring creativity and energy to every aspect of the role. I am dedicated to fostering a supportive community and driving meaningful improvements.\nWhat do you hope to achieve in the role if you are elected?\nIf elected, I will strengthen networking across Arts and Humanities departments, focusing on collaboration beyond social events. I want to create spaces where students support each other academically and professionally, sharing resources and skills. I am committed to promoting inclusivity, ensuring all students feel welcome and represented. I will also work to develop career-focused events that prepare students for life after university. My goal is to build a connected, supportive community that empowers every student to thrive.\nPlease summarise why students should vote for you.\nYou should vote for me because I bring strong leadership, clear communication, and real experience representing students. As Lead Rep for Slade, I’ve proven I can listen, act on feedback, and work with staff to make change happen. My work with Stage Crew Society and managing a large summer camp has built my teamwork, organisation, and problem-solving skills, all of which I’ll use to actively support and represent you across the Arts and Humanities faculty.\nI’m committed to making student voices heard, improving transparency, and building a stronger sense of community across our faculty.",
+          "is_winner": true,
+          "initial_tally": 130.0,
+          "final_tally": 140.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Faculty of Brain Sciences PGT Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Faculty Reps",
+      "winners": [
+        {
+          "name": "Lina Tabasaranskaia",
+          "pronouns": "She/ Her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/DSC05109.jpeg?itok=idk_7hfn",
+          "election_statement": "(She/ Her )\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nHaving faced mental health challenges during my studies and taking three years out before returning to achieve a First-Class Psychology degree, I understand first-hand how vital student representation and wellbeing support are. Overcoming three mental health disorders independently taught me resilience, empathy, and the importance of compassion. These experiences shaped my passion for mental health advocacy and inclusion. As your representative, I will strive to ensure every student in the Faculty of Brain Sciences feels heard, supported, and empowered to reach their potential.\nWhat do you hope to achieve in the role if you are elected?\nIf elected, I aim to strengthen wellbeing support and communication between students and staff, ensuring every postgraduate feels understood, supported, and valued. I want to create a safe, inclusive space where students can speak openly about their challenges and access the right help without fear or stigma. I will advocate for greater mental health awareness, peer support initiatives, and collaboration within the Faculty of Brain Sciences, promoting an environment that empowers all students—academically, emotionally, and personally—to reach their full potential.\nPlease summarise why students should vote for you.\nStudents should vote for me because I know what it feels like to struggle and feel unseen within the university system. I’ve faced mental health challenges that forced me to pause my studies, and I understand first-hand how the system can sometimes fail to support those who need it most. Yet I came back stronger, completing my Psychology degree with First-Class Honours. I want to use that experience to make sure no student feels left behind—to create a community where everyone feels heard, supported, and empowered to succeed, no matter what they’re going through.",
+          "is_winner": true,
+          "initial_tally": 57.0,
+          "final_tally": 63.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Faculty of Brain Sciences UG Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Faculty Reps",
+      "winners": [
+        {
+          "name": "Magdalena Georgieva",
+          "pronouns": "she/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-09/IMG_9380.jpg?itok=DhHFrRXe",
+          "election_statement": "(she/her)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nI bring a range of relevant experience and skills to this role. Last year, I was both our course representative for the Human Neuroscience BSc and a Faculty of Brain Sciences undergraduate representative, which gave me valuable insight into how to effectively voice student concerns and collaborate with staff to create positive changes. I have extensive experience in public speaking, from leading meetings as a representative to teaching large classes of students, which has strengthened my confidence in clear and effective communication.\nWhat do you hope to achieve in the role if you are elected?\nIf elected, I aim to strengthen communication between students and staff while creating a more supportive, inclusive faculty experience. A key focus will be improving exam season by ensuring clearer communication about formats and expectations, providing structured revision support like Q&A sessions with lecturers and curated resources, and making the process less stressful. As a second-year student, I bring experience and insight to advocate for positive changes and foster stronger connections across courses so all students feel heard and valued.\nPlease summarise why students should vote for you.\nStudents should vote for me because I have proven experience representing our course and faculty, having served as both Human Neuroscience representative and Faculty of Brain Sciences rep last year. I am passionate about listening to all voices and making sure concerns are heard and acted upon. With strong communication and public speaking skills, I can confidently represent our year in meetings and advocate for meaningful changes, such as clearer exam guidance and better revision support. I am committed to making our time at UCL as positive, organised, and supportive as possible.",
+          "is_winner": true,
+          "initial_tally": 122.0,
+          "final_tally": 122.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Faculty of Engineering PGR Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Faculty Reps",
+      "winners": [
+        {
+          "name": "Kemal Kirtac",
+          "pronouns": "Unknown",
+          "image_url": null,
+          "election_statement": "What will you bring to this role (e.g. experience, skills or qualities)?\nAs a PhD researcher in Computational Finance, I bring cross-disciplinary experience bridging Computer Science, AI, and quantitative research. I have represented postgraduate students in academic and professional forums, helping strengthen collaboration between departments. My communication skills and policy experience enable me to advocate effectively for the needs of doctoral researchers.I aim to improve research-student representation, enhance supervision quality, and ensure equitable access to resources across labs and programmes.\nWhat do you hope to achieve in the role if you are elected?\nI aim to improve research-student representation, enhance supervision quality, and ensure equitable access to resources across labs and programmes. I plan to establish regular feedback channels between PGRs and faculty leadership, promote interdisciplinary networking events, and advocate for clearer mental-health and funding support pathways for doctoral researchers.\nPlease summarise why students should vote for you.\nI combine academic excellence with a proven record of advocacy and collaboration. I understand the challenges faced by PGRs—from funding uncertainty to workload and wellbeing—and will work to ensure every voice is heard. I will be an accessible, responsive, and proactive representative committed to improving the PhD experience across the Faculty of Engineering.",
+          "is_winner": true,
+          "initial_tally": 37.0,
+          "final_tally": 37.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Faculty of Engineering PGT Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Faculty Reps",
+      "winners": [
+        {
+          "name": "Gulnar Huseynli",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/IMG_1657.JPG?itok=g7sq8xvq",
+          "election_statement": "What will you bring to this role (e.g. experience, skills or qualities)?\nI bring strong analytical, communication, and problem-solving skills from my academic and professional experiences in finance and management. Working in roles from auditing at KPMG to founding my startup has taught me to listen, identify challenges, and deliver practical solutions. These experiences strengthened my teamwork and leadership, which I will use to represent postgraduate students effectively. I am proactive, approachable, and committed to ensuring every student’s voice is heard and valued.\nWhat do you hope to achieve in the role if you are elected?\nIf elected, I aim to strengthen connections between postgraduate students and the faculty through open and consistent communication. I want to ensure academic and well-being concerns are heard and addressed, while encouraging collaboration and networking across programs to build a stronger community. Drawing on my management and leadership experience, I will work with faculty to improve academic support, feedback systems, and career development opportunities for all PGT students.\nPlease summarise why students should vote for you.\nStudents should vote for me because I am approachable, proactive, and committed to representing their voices. With experience in leadership, management, and problem-solving, I can effectively identify issues and work with faculty to implement meaningful solutions. I am dedicated to improving the postgraduate experience by fostering communication, support, and a stronger sense of community among students.",
+          "is_winner": true,
+          "initial_tally": 60.0,
+          "final_tally": 104.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Faculty of Engineering UG Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Faculty Reps",
+      "winners": [
+        {
+          "name": "Aleks Sukic",
+          "pronouns": "He/Him",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-09/IMG_5337.jpeg?itok=yYP7wyPc",
+          "election_statement": "(He/Him)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nI’m Aleks, a current Civil Engineering Student Rep and Senior Mentor, so I know how meetings run and what actually helps students. I listen first: I run quick polls, hold regular drop-ins and gather honest feedback. I’m approachable, organised and pragmatic, I turn problems into clear, realistic asks for staff and follow up until students see practical improvements. I’ll make sure your voice is heard and acted on.\nWhat do you hope to achieve in the role if you are elected?\nI’ve already delivered changes as Civil Engineering Student Rep, standardised feedback, clearer deadlines and fairer group-work. If elected I’ll scale these across the Faculty with simple feedback templates, transparent rubrics showing mark breakdowns, centralised deadline guidance and better tools for tracking group contributions. I’ll set short-term targets, share progress updates, and keep asking students for quick feedback so changes actually help.\nPlease summarise why students should vote for you.\nVote for me because I listen, act and follow through. As Student Rep and Senior Mentor I’ve turned student concerns into real fixes, faster feedback, fairer assessments and clearer communication. I’m approachable (regular drop-ins and short anonymous polls), pragmatic (small changes that cut stress) and accountable (I’ll publish short meeting notes and progress updates). I’ll use your feedback to prioritise what matters most to students.",
+          "is_winner": true,
+          "initial_tally": 94.0,
+          "final_tally": 125.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Faculty of Laws UG Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Faculty Reps",
+      "winners": [
+        {
+          "name": "Maya Huang",
+          "pronouns": "she/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-09/Screenshot%202025-09-29%20at%2011.00.19%E2%80%AFAM.png?itok=Kz76a_Jx",
+          "election_statement": "(she/her)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nI want my peers to feel heard and see real change from their feedback. As UCL Law Society Treasurer, I’ve worked with students and faculty to secure funding for student initiatives and fun events, learning to turn ideas into action.\nRepresenting UCL’s A-Team at the World Universities Debating Championships taught me to listen carefully and break down complex issues. My A&O Shearman brand ambassador role is teaching me to communicate clearly on behalf of others – all essential for this role.\nI’m approachable, persistent, and genuinely interested in making sure your concerns never get overlooked!\nWhat do you hope to achieve in the role if you are elected?\nIf elected, I’ll push for earlier release of timetables so students can plan around work and other commitments.\nI’ll also push for clearer feedback on assessments and clear in-depth guidance on marking criteria across modules.\nI also want to set up monthly “faculty feedback forums” so students can directly raise concerns and see progress updates, making it easier to track real changes over time.\nI'll be highly responsive and I'm always happy to engage with your messages!: shoot me a text anytime via +44 7771 036731 on WhatsApp, @mayahuang_ on Instagram, or even\nmaya.huang.24@ucl.ac.uk\n.\nPlease summarise why students should vote for you.\nWith my experience in communication roles, and a track record of working with both students (across all undergraduate years!) and faculty, I know how to turn ideas into action and keep conversations going until things improve.\nI want to make it easy for students to raise concerns. I’m always happy to hear suggestions from my peers anytime — whether it’s clearer feedback, earlier timetables, or anything else — and I’ll make sure your voices are heard and acted on. See you around!",
+          "is_winner": true,
+          "initial_tally": 62.0,
+          "final_tally": 62.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Faculty of Life Sciences PGT Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Faculty Reps",
+      "winners": [
+        {
+          "name": "Cindy Hu",
+          "pronouns": "She/Her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/Cindy%20Hu%20Candidate%20Photo.jpg?itok=ZpALj0J0",
+          "election_statement": "(She/Her)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nI am running because I want to support the study and social lives of PGT students in the Life Science Faculty.\nDuring my Bachelor’s degree in Rotterdam, I was the Internal Affairs Officer of our Student Council. I represented my college of 600+ students in the Programme Committee, a group assigned by the Dutch government within universities to discuss the education quality and oversee curriculum changes. I have experience communicating efficiently with staff and management to bring student ideas to life.\nI am passionate, committed, and always up for a quick chat if you run into me on campus!\nWhat do you hope to achieve in the role if you are elected?\nI am committed to building an efficient, inclusive, and creative environment for the postgrad students of UCL. This can include:\nDissertation workshops and career fairs involving alumni of the faculty to learn from their experiences.\nSurveys that allow for students to easily give feedback on modules, assessments, and study environments.\nFor students to receive important information with efficiency and clarity by utilizing platforms such as Instagram.\nEnd of term socials to connect students within the Life Science Faculty.\nPlease summarise why students should vote for you.\nI have leadership experiences and a dedication to improving educational quality and student wellbeing. I believe that students and staff have to work together to make changes happen, so I aim to help bridge the communication between the two groups. Like most of you, I am just starting in my programme so I look forward to hearing from you your ideas and opinions about your courses.\nMost of all, I am passionate about student life, and I want to help create an environment where you can succeed academically, thrive socially, and have fun!",
+          "is_winner": true,
+          "initial_tally": 42.0,
+          "final_tally": 42.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Faculty of Life Sciences UG Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Faculty Reps",
+      "winners": [
+        {
+          "name": "Emily Yang",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/IMG_5987.jpg?itok=MFF4LE_c",
+          "election_statement": "What will you bring to this role (e.g. experience, skills or qualities)?\nAs the 2024-25 Lead Academic Representative for Biomedical Sciences, I’ve chaired SPC meetings and liaised with the faculty, making me well-acquainted with this role’s responsibilities.\nI’ve been very active in the life sciences community at UCL, being part of the committee of Life Sciences, Biomedical Sciences and MedTech Societies. I believe I’m a familiar face for life sciences students across all years, making me very approachable for help.\nI have extensive leadership, communication and time-management skills from being president of 3 different societies at UCL and Chair of Student Council.\nWhat do you hope to achieve in the role if you are elected?\nCreate a centralised Google Form available on the group description of each course’s WhatsApp groupchat, so students can submit concerns anytime. This would be regularly checked and relayed to staff by the faculty’s academic reps\nOrganise faculty-wide events with department reps (e.g. expand the Life Sciences football match into a sports day)\nBuild a faculty alumni network and host networking events, connecting students to graduates for mentorship / career advice\nOffer opportunities for those aiming nontraditional careers (e.g. consulting, policy, entrepreneurship) & careers outside of the UK\nPlease summarise why students should vote for you.\nI have experience as the Lead Academic Rep for Biomedical Sciences, and I believe that I’ve been a familiar face in the life sciences community, making me very approachable. I’m very organised and manage my time well too (I was in 5 different committees last year).\nI promise to prioritise your needs throughout this academic year! Alongside addressing your concerns, I will focus on creating both social and career opportunities using departmental and societal collaborations and resources, ensuring a well-rounded university experience for everyone in the faculty.",
+          "is_winner": true,
+          "initial_tally": 79.0,
+          "final_tally": 115.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Faculty of Mathematical and Physical Sciences PGT Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Faculty Reps",
+      "winners": [
+        {
+          "name": "Mingda Xie",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/20251013013524_20_101.jpg?itok=aHaBR5H7",
+          "election_statement": "What will you bring to this role (e.g. experience, skills or qualities)?\nI bring substantial experience in\nstudent representation\n,\nevent coordination\n, and\ncommunity engagement\n. During my undergraduate studies at King’s College London, I served in the KCLCSSA External Relations and Media Departments, organising large-scale events with 300+ participants and managing\npromotion\nand\npartnerships\n. I also worked as a\nStudent Representative\nin the Department of Electronic Engineering, gathering and reporting peer feedback. Now in the UCLCSSA\n, I plan cultural and social events for postgraduates, bringing\ncommunication\n,\norganisation\n, and\nteamwork\nskills to this role.\nWhat do you hope to achieve in the role if you are elected?\nIf elected, I aim to strengthen\ncommunication\nbetween postgraduate students and faculty, ensuring that academic and well-being feedback is effectively addressed. I plan to foster a more\ninclusive\n,\nconnected\n, and\nsupportive\npostgraduate community within the Faculty, encouraging collaboration and educational exchange. I also plan to enhance\ninformation accessibility\nthrough online platforms and student-led events, helping peers engage more easily with faculty resources and opportunities.\nPlease summarise why students should vote for you.\nWith proven experience in\nstudent representation\n,\nteamwork\n, and\nleadership\n, I understand the challenges postgraduates face when adapting to new academic settings. I have represented peers as a\nStudent Rep\nand, through roles in\nstudent societies\n, have developed strong communication and organisational skills. I will ensure every student’s voice is heard and use my experience in\nmedia\n,\ndata\n, and\ncoordination\nto make our Faculty more\nconnected\n,\ntransparent\n, and\ninclusive\n.",
+          "is_winner": true,
+          "initial_tally": 54.0,
+          "final_tally": 54.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Faculty of Mathematical and Physical Sciences UG Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Faculty Reps",
+      "winners": [
+        {
+          "name": "Sonia Marwaha",
+          "pronouns": "she/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-09/WhatsApp%20Image%202025-09-27%20at%2019.24.30.jpeg?itok=I_5Al_bc",
+          "election_statement": "(she/her)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nFor years, I have seen decisions affecting students be made without adequate representation and thus consideration of our needs. In college, I was a prefect. As an avid protestor, I took direct action on behalf of students, gaining 200+ signatures on a petition that I took to the Headteacher. I am passionate about representation and unafraid to take initiative. This summer, I led young adults as a volunteer camp facilitator, and now as a transition mentor, I am guiding less experienced 1st years. I will openly listen and connect with my fellow students to make our voices heard, so vote for me!\nWhat do you hope to achieve in the role if you are elected?\nIf elected, I will work to achieve the following (\nin order of priority\n):\nStudents get consistent communication and support from personal tutors\nWe are listened to if professors do not communicate or teach effectively\nDAP glitches are dealt with, particularly for SoRA students\nMore exam preparation resources e.g answers to practice papers!\nBy discussing my 1st year experience with others, these are the main issues that come to light. I believe these are feasible goals that will enhance our academic experience! I aim to communicate with you, adapt and act accordingly as new issues arise.\nPlease summarise why students should vote for you.\nUltimately, I will represent those of us who have sent 10 emails to a personal tutor in vain, received a lower grade due to system glitches, or needed  subtitled videos - and even those who want to connect with their fellow students in the department more!\nI am an experienced and enthusiastic communicator and will take your issues seriously. I've really enjoyed getting to know everyone so far, and will ensure even the quietest of us are heard with feedback forms, surveys and an open ear! I am passionate about change and will make the most of my role, by making sure\nyou\nget the most out of it.",
+          "is_winner": true,
+          "initial_tally": 68.0,
+          "final_tally": 109.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Faculty of Medical Sciences UG Rep (Non-Clinical)",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Faculty Reps",
+      "winners": [
+        {
+          "name": "Armani Tanna",
+          "pronouns": "She/Her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/faculty%20photo%20screenshot.png?itok=kdojE-fk",
+          "election_statement": "(She/Her)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nAs an Academic Rep last year, I saw the power of student feedback. Seeing the changes made in the meetings (such as clearer information about lecture locations, feedback and timetabling) showed me how rewarding this experience is, further sparking my interest to make more changes as Faculty Rep. My communication and leadership skills have developed further as a Transition Mentor, which I enjoy! My experience presenting lectures and being part of a Girls-In-Sport committee at school shows my genuine desire to promote change. If there's an opportunity to make something better, count me in!\nWhat do you hope to achieve in the role if you are elected?\nI want to be a friendly face where students feel comfortable to give any feedback in the Faculty, be this from academic features such as lectures and timetables to social events and general wellbeing (as a member of yoga society, perhaps some yoga sessions could be organised as exam season approaches). Faculty wide events allow us to strengthen connections with each other and have some fun in our busy schedules. I would also like to promote smaller courses within the Faculty to ensure fair representation across all degrees, and advocate for more practical skills and lab spacing.\nPlease summarise why students should vote for you.\nI am kind and approachable – 2 qualities essential in ensuring everyone feels comfortable providing feedback. I have great time management, which comes from always being a busy bee, such as swimming 12 hours a week at school, whilst taking 4 A-levels and an EPQ. Some of you may know me from Cancer Biomedicine or IMS, from Mully’s karaoke or yoga, or maybe you don’t know me at all and that’s ok! It just shows that we are part of something much bigger than ourselves, but every one of you has a voice, and that is crucial to remember. So, let me be the platform where your voice is heard.",
+          "is_winner": true,
+          "initial_tally": 56.0,
+          "final_tally": 71.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Faculty of Population Health Sciences PGR Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Faculty Reps",
+      "winners": [
+        {
+          "name": "Siqi (Kiki) Ma",
+          "pronouns": "she/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/IMG_7469.jpeg?itok=1f6d_uwO",
+          "election_statement": "(she/her)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nHaving studied and researched across China and the UK, I understand the academic, cultural, and emotional challenges that international students encounter. As vice-president of my undergraduate international students’ department, I led a buddy program that supported newcomers’ adjustment, wellbeing, and engagement. Combined with my research in gender and health studies, these experiences have strengthened my empathy, cross-cultural communication, and leadership qualities I’ll bring to foster inclusion and belonging at UCL.\nWhat do you hope to achieve in the role if you are elected?\nIf elected, I want to help create a more open, supportive, and caring environment for all researchers. Having experienced the challenges of adjusting to academic life myself, I understand how vital mental health and wellbeing are to our success. I plan to host welcome sessions and Q&As to ease new students into research life, and to organise informal gatherings—like idea-sharing events or alumni talks—that foster connection and belonging. Above all, I’ll advocate for stronger wellbeing awareness and help students make full use of UCL’s support resources.\nPlease summarise why students should vote for you.\nI believe every research student should feel heard, supported, and part of a community that truly cares. Having gone through the transition into postgraduate research myself as an international student, I know how overwhelming it can be at first. That’s why I want to be a voice for students, helping to make communication with staff easier and wellbeing support more accessible. Most of all, I want to build a warm, close community where we can share, connect, and grow together.",
+          "is_winner": true,
+          "initial_tally": 31.0,
+          "final_tally": 31.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Faculty of Population Health Sciences PGT Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Faculty Reps",
+      "winners": [
+        {
+          "name": "Ayesha Yaqoob",
+          "pronouns": "She/Her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/me%203.jpg?itok=WsNLfimb",
+          "election_statement": "(She/Her)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nAs a Chevening Scholar at UCL and former Clinical Demonstrator in Cardiac Perfusion, I bring leadership, communication, and advocacy experience shaped by years in healthcare and academic settings. I’ve represented professionals at national forums, led student initiatives, and built collaborative teams. I value inclusivity, evidence-based improvement, and empathy; qualities that will help me ensure every student in the Faculty of Population Health Sciences feels heard, supported, and empowered.\nWhat do you hope to achieve in the role if you are elected?\nIf elected, I aim to strengthen communication between students and faculty by creating an open, inclusive platform where all voices are valued. I hope to enhance student wellbeing, academic support, and representation across departments within the Faculty of Population Health Sciences. My goal is to foster collaboration through regular feedback forums, mentorship initiatives, and interdisciplinary engagement, ensuring every student feels connected, supported, and empowered to thrive within UCL’s diverse academic community.\nPlease summarise why students should vote for you.\nAs an international student of color at UCL,  I know what it feels like to navigate a new academic culture while striving to belong. I aim to represent every voice, especially those that often go unheard. I believe in inclusion, empathy, and action. Students should vote for me because I’ll listen, advocate, and turn feedback into real change. I want every student in our faculty to feel seen, supported, and proud to belong at UCL, no matter where they come from. Together, we can create a community where every student feels valued and empowered.",
+          "is_winner": true,
+          "initial_tally": 61.0,
+          "final_tally": 71.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Faculty of Population Health Sciences UG Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Faculty Reps",
+      "winners": [
+        {
+          "name": "Claire Wang",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-09/IMG_8184.png?itok=DIsuhGRh",
+          "election_statement": "What will you bring to this role (e.g. experience, skills or qualities)?\nDuring my time at UCL, I've built experiences I'm excited to bring to the Population Health Sciences faculty representative role. Writing in the faculty newspaper has helped strengthen clear, confident communication. Independent projects and internships, including a UCL population health placement, developed initiative, organisation and problem-solving. Two years as the course rep for my peers has taught me to listen, gather feedback and work with staff for real improvements, building creativity, drive and responsibility to represent our faculty with ambition and teamwork.\nWhat do you hope to achieve in the role if you are elected?\nIf elected, I hope to strengthen communication between students and staff so that feedback leads to real action. I hope to create learning opportunities that reflect the diversity of our field, as well as lead initiatives that spark a stronger sense of community, whether through cross-department projects such as skills swap workshops where students can teach other practical skills as a way to improve themselves and help others, peer mentoring being carried through all 3 academic years or student-led events that connect us beyond the lectures and seminars.\nPlease summarise why students should vote for you.\nStudents should vote for me because I hope to turn our ideas into projects we can all be proud of. From writing in the faculty paper to leading my own project, I've learnt how small conversations can spark actionable changes. I hope to create opportunities, like peer-led skills swaps and community events, that make our faculty more connected and inclusive. I would work to keep decisions transparent and celebrate student achievements so every student feels that their opinions and perspectives have helped shape the direction of our community.",
+          "is_winner": true,
+          "initial_tally": 47.0,
+          "final_tally": 47.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Faculty of Social and Historical Sciences PGT Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Faculty Reps",
+      "winners": [
+        {
+          "name": "Harshita Pandey",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/IMG_6282.JPG?itok=2XvuMz4g",
+          "election_statement": "What will you bring to this role (e.g. experience, skills or qualities)?\nI bring structured thinking, intelligent design, and people sense to this role. Having led before as school pupil leader and university student council rep, I know how to turn feedback into action—not just paperwork. I'm equal parts strategist and listener: sharp with systems, soft with people. I notice what slows things down, fix it quietly, and make outcomes seamless. It's about recognising patterns early—spotting the loose ends before they unravel. Over time, I've learned to read the fine print of how things work, and make them work better.\nWhat do you hope to achieve in the role if you are elected?\nMy goal is to make everyday student experience more intuitive. That means fixing small things that quietly drain your time and energy— because they add up. I'll tackle the study-space overcrowding issues so finding a decent spot to work isn't a daily hunt. At student cafes, I'll push for a QR-based instant feedback system, so you can share suggestions or flag what's missing, your input directly shaping what's served. Until room allocations are fully optimised, a one-tap \"Today's Class & Location\" bar on your UCLGo app, so you're not juggling apps when in a rush.\nPlease summarise why students should vote for you.\nI'm running for Faculty Rep because I want to make your life smoother in real, visible ways. No fluffy promises, no noise, just strategic fixes. The kind of changes you can actually\nfeel\n: in faster responses, clearer systems, and a campus experience that runs smarter. I'll build tighter feedback loops, ensure quicker resolutions, and help everyday postgraduate life feel less like juggling tabs— and more like a single, well-run page.\nI'll handle the friction so you can glide. And when things get too intense we'll reset over matcha because sometimes the smartest strategy is just taking a breather",
+          "is_winner": true,
+          "initial_tally": 79.0,
+          "final_tally": 92.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Faculty of Social and Historical Sciences UG Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Faculty Reps",
+      "winners": [
+        {
+          "name": "Jaime Padilla",
+          "pronouns": "he/him",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/9C358946-314D-4F6F-8462-4C15F5E457CE.jpg?itok=9cmMAihT",
+          "election_statement": "(he/him)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nHey guys! I'm\nJaime\n(pronounced Hi-may)\n. I hope I can count on your guys' vote as:\nI love meeting people!\nOne reason I'm keen to run for this position is that I'd love to connect with folks from around the faculty.\nI am a\ngood listener\n, ready to hear people's concerns. I understand\nthe importance of student voice\nand will\nensure it is fairly represented\n.\nI am used to\nunderstanding a wide variety of perspectives\nand\ncoming up with the best possible solution\nfrom them.\nOver the summer, I worked in the Massachusetts State Legislature and developed my\ncommunication\nand\nnetworking skills\n.\nWhat do you hope to achieve in the role if you are elected?\nI hope I can be a\nfriend\nand a\nhelping hand\nto the students. My email and Instagram will always be available for people to contact me. If elected, I intend to:\nHost\nmonthly drop-in sessions\nfor anyone to talk about\nhow they’re doing.\nCommunicate\nvia Outlook regarding developments in the various committees.\nEstablish a group\nwith Course Reps from all nine departments to ensure equal representation.\nUltimately, what I achieve in this role depends on what the people of SHS wish I would achieve. I am very flexible, and I want to ensure that all departments’ input is taken into account.\nPlease summarise why students should vote for you.\nBeing a representative is no easy job; it requires someone with experience representing and communicating students' interests, someone who can interact with the various departments within our faculty and understand what we want. As SHS UG representative, I will go out of my way to get to know people from all the different departments and, to the best of my ability, represent all of you guys. If any of you guys have any questions, please feel free to message me! My email is\njaime.padilla.24@ucl.ac.uk\n, and my Instagram is @ja_padilla06. Hope I can count on you!\nFOR YOU AND ME, VOTE JAIME P.",
+          "is_winner": true,
+          "initial_tally": 70.0,
+          "final_tally": 107.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Faculty of the Built Environment PGR Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Faculty Reps",
+      "winners": [
+        {
+          "name": "Heli Song",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/IMG_0427.jpg?itok=5y3Ch9EZ",
+          "election_statement": "What will you bring to this role (e.g. experience, skills or qualities)?\nI will bring commitment and experience from serving as a student representative during both my undergraduate and master’s studies. I have developed strong organisation and communication skills when negotiating with faculty. I will ensure that student feedback is heard and provide transparent updates after Faculty meetings on progress, establishing an effective feedback-loop. Approachable, organized, and results-driven, I will always be happy to speak with students and visit lectures, with the goal of making the Bartlett academic experience the best it can be.\nWhat do you hope to achieve in the role if you are elected?\nMy goal is to help master’s students make the most of their intensive 10-month courses and PhD students enjoy their multi-year research journey. I plan to establish a two-way feedback loop, gathering meaningful input from students and ensuring faculty decisions are shared promptly. Where there is demand, I also hope to foster interdisciplinary collaboration—for example, establishing a student-run Bartlett Academic Journal that gives coursework purpose and insight into academia. I am also ready to support the Student Union’s missions.\nPlease summarise why students should vote for you.\nI will work with faculty to improve your postgraduate experience. Coming from a 10-month master’s program myself and now doing a PhD, I am committed to representing the postgraduate community. I don’t shy away from asking faculty to support and address students’ needs and will do my best to act as a bridge. Even for less academic requests, I was able to secure funding for a postgraduate Barcelona class trip. Approachable, friendly, and results-driven, I am committed to working with the Bartlett and the Student Union to maximise your student experience.",
+          "is_winner": true,
+          "initial_tally": 21.0,
+          "final_tally": 21.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Faculty of the Built Environment PGT Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Faculty Reps",
+      "winners": [
+        {
+          "name": "Nicolas Di Salvo",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/Nico%20pic.jpg?itok=aZnS17Nl",
+          "election_statement": "What will you bring to this role (e.g. experience, skills or qualities)?\nI come from the construction industry and now study its economics at The Bartlett, UCL's Faculty of the Built Environment. I understand how decisions are made, and more importantly, how they affect people. I work with structure, timelines, and expectations every day. I don’t overpromise. I listen carefully, act when needed, and stay consistent. I value clarity, and I approach this role with the same discipline I apply to my work: focused, pragmatic, and committed to results.\nWhat do you hope to achieve in the role if you are elected?\nI want to improve how students and faculty communicate. Not through more meetings, but through clearer processes and faster responses. I’ll focus on making feedback visible and making sure it leads to change. I’ll work to ensure that students know what’s happening, why it’s happening, and how they can influence it. That’s the minimum we should expect.\nPlease summarise why students should vote for you.\nI understand how institutions work, and I know how easily student voices get lost in them. I won’t waste time with vague promises or empty gestures. I’ll focus on what matters: making sure concerns are heard, followed up, and resolved. I’ll keep communication clear, decisions transparent, and priorities aligned with what students actually need. If elected, I’ll treat this role with the seriousness it deserves.",
+          "is_winner": true,
+          "initial_tally": 72.0,
+          "final_tally": 98.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Faculty of the Built Environment UG Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Faculty Reps",
+      "winners": [
+        {
+          "name": "Hamza Hashim",
+          "pronouns": "Unknown",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/IMG_3068_SnapseedCopy.JPEG?itok=TPvTO_de",
+          "election_statement": "What will you bring to this role (e.g. experience, skills or qualities)?\nI’ve served as first-year Academic Rep and as a transition mentor, so I’m a go-to\npoint of contact\non academics. I listen, act on feedback, and know the people, processes and pain-points. I’ve worked with students and staff to improve assignment scheduling, organise socials, and resolve issues. Classmates message me first; I summarise clearly, escalate to module leads, and deliver calm comms,\nquick follow-ups\nand\npractical fixes\n.\nWhat do you hope to achieve in the role if you are elected?\nMy goals reflect students’ priorities, to name a few: more study and\nworkshop space\n,\nbetter\nventilation\n(Bartlett 6th floor), and\nmore charging points\n. I’ll push for a booking system within 22 Gordon Street so everyone has a place to work; clearer marking criteria; and\neasier access\nto UCL East facilities (\nphoto/lighting studios\n,\n3D scanning\n,\nmaterial labs\n) with transparent\nhow-to guides\n. Expect termly “you said—we did” updates and\ncross-cohort events\nthat boost and wellbeing and foster valuable connections.\nPlease summarise why students should vote for you.\nI care deeply about improving our education and have already delivered change. I’m\napproachable\nand\npersistent\n: I turn complaints into actions—then report back. You’ll feel\nquick wins\nthis term (space, access, deadline clarity) while I work with staff on longer-term fixes like fair assessments and accessible facilities. You’ll always know what I’m working on and how to reach me - unless I'm busy saving\nGotham City\n.",
+          "is_winner": true,
+          "initial_tally": 87.0,
+          "final_tally": 87.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Institute of Education PGT Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Faculty Reps",
+      "winners": [
+        {
+          "name": "Yiling Liu",
+          "pronouns": "she/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/Yiling.jpg?itok=KR5NFZXU",
+          "election_statement": "(she/her)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nHi everyone, I’m\nYiling (Cynthia)\nfrom the Institute of Education. With a background in\nApplied Linguistics\nand experience in\ncross-cultural communication and event organization\n, I’ve learned how to listen, collaborate, and connect people from diverse backgrounds. As a Faculty Rep, I will bring\nstrong communication skills, empathy, and commitment\nto representing students’ voices and promoting open dialogue between students and staff. I aim to help build an\ninclusive and supportive community\nwhere everyone feels respected, informed, and encouraged to contribute.\nWhat do you hope to achieve in the role if you are elected?\nIf elected, I hope to build a\ndiverse, inclusive, and supportive community\nwithin the Institute of Education. My goal is to ensure every student’s\nvoice is heard and valued\n, and feedback is represented constructively in faculty discussions. I will strengthen communication between students, staff, and the Students’ Union, making sure information and opportunities are shared clearly. Most importantly, I hope to foster a stronger sense of\nbelonging and collaboration\n, where students from all backgrounds feel respected, supported, and empowered to shape a better learning experience together.\nPlease summarise why students should vote for you.\nStudents should vote for me because I care deeply about\nequality, inclusion, and student wellbeing\n. Coming from an\ninternational school background\n, I understand the diverse challenges international students face and value treating everyone with fairness and respect. My experience in\ncross-cultural communication and event organisation\nhas taught me how to listen, collaborate, and represent different voices effectively. As your Faculty Rep, I will\nstrengthen communication between students and staff\nand help build a\nsupportive and inclusive community\nwhere every student feels valued and heard.",
+          "is_winner": true,
+          "initial_tally": 81.0,
+          "final_tally": 123.0,
+          "campaign_points": null
+        }
+      ]
+    },
+    {
+      "title": "Institute of Education UG Rep",
+      "group": "Union",
+      "group_type": "Union",
+      "group_link": null,
+      "category": "Faculty Reps",
+      "winners": [
+        {
+          "name": "Vivian Guo",
+          "pronouns": "She/her",
+          "image_url": "https://studentsunionucl.org/sites/default/files/styles/candidate_photo/public/2025-10/candidate%20photo.JPG?itok=w8GzDGRF",
+          "election_statement": "(She/her)\nWhat will you bring to this role (e.g. experience, skills or qualities)?\nIf I could describe what I bring to this role in a few words, it would be\nenergy, empathy, and experience\n. I’ve always believed that a good representative is not just a spokesperson, but a connector — someone who listens, understands, and brings people together. I’ve led international events, mentored students, and worked with staff to create a supportive community. I also delivered a TED Talk on youth empowerment, embracing cultures. These experiences makes me ready to bring this energy to IOE, representing every voice and helping build an inclusive, connected community for our faculty.\nWhat do you hope to achieve in the role if you are elected?\nIf elected, I’ll make sure every student’s voice is heard and respected. I’ll gather feedback, and share it at Faculty meetings. Beyond academics, I also hope to promote the value of\nstudents and staff working together\n. In high school, I often worked closely with teachers and administrators to plan events, so I know how effective collaboration can be. I’d like to build strong relationships with both students and faculty to create a friendly, open dialogue that helps everyone feel part of the same team. My goal is to make\nIOE\na vibrant space where collaboration and positive change thrive.\nPlease summarise why students should vote for you.\nYou should vote for me because I truly care about representing you and building a positive, supportive community. I listen carefully, act responsibly, and always follow through. My experience as a student leader, TED Talk speaker, and mentor has prepared me to speak up for your needs and create opportunities for everyone. I’ll be approachable, proactive, and transparent, making sure your feedback leads to real results.\nTogether, I believe we can make\nIOE\na truly collaborative and inspiring part of UCL — one where every student feels proud to belong.\nSo, let’s build this community together. 🌱",
+          "is_winner": true,
+          "initial_tally": 53.0,
+          "final_tally": 73.0,
+          "campaign_points": null
+        }
+      ]
+    }
+  ]
+}
