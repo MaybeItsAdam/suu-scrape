@@ -82,18 +82,26 @@ except Exception:
 # ---------------------------------------------------------------------------
 # Configuration (tunable)
 # ---------------------------------------------------------------------------
-DEFAULT_MODEL = "openai/gpt-oss-20b"
+DEFAULT_MODEL = "llama-3.1-8b-instant"
 
 # Prompt pieces
 SYSTEM_PROMPT = (
-    "You are a precise assistant that extracts campaign promises and key policy "
-    "goals from student election manifestos.\n\n"
+    "You are a precise assistant that extracts campaign promises from student "
+    "election manifestos.\n\n"
     "Given the full election statement for a winning candidate, return ONLY a "
-    "JSON array of strings — each string is one distinct campaign point or "
-    "promise, phrased concisely in the candidate's own words or a faithful "
-    "paraphrase. Aim for 4–8 points. Do not include background about the "
-    "candidate, reasons to vote for them, or descriptions of their past "
-    "experience unless they are phrased as a concrete commitment.\n\n"
+    "JSON array of strings — each string is one distinct, concrete campaign "
+    "promise. Follow these rules strictly:\n\n"
+    "1. SPECIFIC AND ACTIONABLE: Each point must describe something the "
+    "candidate can actually do in the role — a tangible action, initiative, or "
+    "change. Exclude vague aspirations like 'make things better' or broad "
+    "values statements.\n"
+    "2. PRESENT CONTINUOUS TENSE: Phrase every point using a gerund (–ing form) "
+    "as the first word. Examples: 'Introducing a student discount scheme', "
+    "'Lobbying management to extend library hours', "
+    "'Running monthly feedback sessions with staff'.\n"
+    "3. CONCISE: Each point should be one short clause (under 15 words).\n"
+    "4. Aim for 3–6 points. Omit background, personal qualities, and reasons "
+    "to vote for the candidate.\n\n"
     "Respond with valid JSON only — no markdown fences, no explanation."
 )
 
@@ -216,7 +224,7 @@ def _call_responses_with_retries(client: Any, kwargs_list: List[dict]) -> Option
                 logging.debug(
                     "LLM call shape %d attempt %d kwargs=%s", shape_no, attempt, kwargs
                 )
-                resp = client.responses.create(**kwargs)  # type: ignore[arg-type]
+                resp = client.chat.completions.create(**kwargs)  # type: ignore[arg-type]
                 logging.debug(
                     "LLM call succeeded (shape %d attempt %d)", shape_no, attempt
                 )
@@ -263,13 +271,15 @@ def _extract_via_llm_single(
         return None
 
     user_content = USER_TEMPLATE.format(role=role, name=name, statement=statement)
-    input_text = SYSTEM_PROMPT + "\n\n" + user_content
+    messages = [
+        {"role": "system", "content": SYSTEM_PROMPT},
+        {"role": "user", "content": user_content},
+    ]
 
     kwargs_list = [
-        {"model": model, "input": input_text, "temperature": 0.2, "max_tokens": 512},
-        {"model": model, "input": input_text, "temperature": 0.2},
-        {"model": model, "input": input_text},
-        {"input": input_text, "model": model},
+        {"model": model, "messages": messages, "temperature": 0.2, "max_tokens": 512},
+        {"model": model, "messages": messages, "temperature": 0.2},
+        {"model": model, "messages": messages},
     ]
 
     resp = _call_responses_with_retries(client, kwargs_list)
@@ -338,13 +348,16 @@ def _batch_extract_via_llm(
             f"ID: {iid}\nRole: {it.get('role', '')}\nCandidate: {it.get('name', '')}\nElection statement:\n{it.get('statement', '')}\n---\n"
         )
 
-    input_text = batch_instruction + "\n\n" + "\n".join(parts)
+    batch_user_content = "\n".join(parts)
+    messages = [
+        {"role": "system", "content": batch_instruction},
+        {"role": "user", "content": batch_user_content},
+    ]
 
     kwargs_list = [
-        {"model": model, "input": input_text, "temperature": 0.2, "max_tokens": 2048},
-        {"model": model, "input": input_text, "temperature": 0.2},
-        {"model": model, "input": input_text},
-        {"input": input_text, "model": model},
+        {"model": model, "messages": messages, "temperature": 0.2, "max_tokens": 2048},
+        {"model": model, "messages": messages, "temperature": 0.2},
+        {"model": model, "messages": messages},
     ]
 
     resp = _call_responses_with_retries(client, kwargs_list)

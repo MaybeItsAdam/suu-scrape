@@ -24,6 +24,8 @@ def cli() -> None:
 @click.option("--rounds", is_flag=True, help="Include voting rounds data.")
 @click.option("--tallies", is_flag=True, help="Include final vote tallies.")
 @click.option("--csv", is_flag=True, help="Export data to CSV.")
+@click.option("--sheets", is_flag=True, help="Copy data as TSV to clipboard for pasting into Google Sheets.")
+@click.option("--xlsx", is_flag=True, help="Export data to a .xlsx file (opens in Google Sheets or Excel).")
 @click.option(
     "--officers-only",
     is_flag=True,
@@ -44,6 +46,8 @@ def election(
     rounds: bool,
     tallies: bool,
     csv: bool,
+    sheets: bool,
+    xlsx: bool,
     officers_only: bool,
     key_roles: bool,
     winners_only: bool,
@@ -207,6 +211,8 @@ def election(
         "scrape_type": "election",
         "election_name": selected_election["title"],
         "export_csv": csv,
+        "export_sheets": sheets,
+        "export_xlsx": xlsx,
     }
 
     run_plugins(scraped_data, context)

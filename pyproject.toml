@@ -18,7 +18,8 @@ dependencies = [
     "supabase",
     "cuid",
     "click",
-    "selenium"
+    "selenium",
+    "openpyxl"
 ]
 
 [project.scripts]

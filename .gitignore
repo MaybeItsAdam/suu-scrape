@@ -108,6 +108,7 @@ ENV/
 # Scraped data
 scrape_election_*.json
 scrape_*.csv
+scrape_*.xlsx
 
 # Saved auth session (contains cookies — never commit)
 .suu_session.json
