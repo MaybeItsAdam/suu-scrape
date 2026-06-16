@@ -27,6 +27,11 @@ def cli() -> None:
 @click.option("--sheets", is_flag=True, help="Copy data as TSV to clipboard for pasting into Google Sheets.")
 @click.option("--xlsx", is_flag=True, help="Export data to a .xlsx file (opens in Google Sheets or Excel).")
 @click.option(
+    "--upload",
+    is_flag=True,
+    help="Upload to Supabase (disabled by default).",
+)
+@click.option(
     "--officers-only",
     is_flag=True,
     help="Only include union-level officer roles (sabbs + student officers). Network committee roles (Secretary, Treasurer, Social Secretary, etc.) are excluded.",
@@ -41,6 +46,23 @@ def cli() -> None:
     is_flag=True,
     help="Only include winning candidates (strips losers from output).",
 )
+@click.option(
+    "--workers",
+    type=click.IntRange(1, 32),
+    default=6,
+    show_default=True,
+    help="Worker threads for scraping result pages (higher is faster).",
+)
+@click.option(
+    "--checkpoint-file",
+    default=None,
+    help="Path to incremental checkpoint JSON (defaults to .suu_checkpoint_<election>.json).",
+)
+@click.option(
+    "--resume",
+    is_flag=True,
+    help="Resume from an existing checkpoint file.",
+)
 def election(
     name: Optional[str],
     rounds: bool,
@@ -48,9 +70,13 @@ def election(
     csv: bool,
     sheets: bool,
     xlsx: bool,
+    upload: bool,
     officers_only: bool,
     key_roles: bool,
     winners_only: bool,
+    workers: int,
+    checkpoint_file: Optional[str],
+    resume: bool,
 ) -> None:
     """
     Scrape an election by name or direct URL.
@@ -157,6 +183,7 @@ def election(
     )
 
     scraper = GenericElectionScraper(selected_election["url"])
+    checkpoint_target = checkpoint_file or scraper.default_checkpoint_path()
 
     filters = []
     if officers_only:
@@ -167,6 +194,12 @@ def election(
         filters.append("winners only")
     if filters:
         click.echo("Filters: " + ", ".join(filters))
+    click.echo(f"Checkpoint: {checkpoint_target}")
+    if resume:
+        click.echo("Resume mode: enabled")
+    click.echo(f"Workers: {workers}")
+    if upload:
+        click.echo("Supabase upload: enabled")
 
     click.echo("")
 
@@ -198,6 +231,9 @@ def election(
         progress_callback=on_position,
         page_callback=on_page,
         winner_callback=on_winner if winners_only else None,
+        checkpoint_path=checkpoint_target,
+        resume=resume,
+        max_workers=workers,
     )
 
     quit_driver()
@@ -213,6 +249,7 @@ def election(
         "export_csv": csv,
         "export_sheets": sheets,
         "export_xlsx": xlsx,
+        "upload_supabase": upload,
     }
 
     run_plugins(scraped_data, context)
@@ -230,7 +267,12 @@ def logout() -> None:
 @cli.command()
 @click.option("--start", default=None, help="Start date (YYYY-MM-DD)")
 @click.option("--end", default=None, help="End date (YYYY-MM-DD)")
-def whatson(start: Optional[str], end: Optional[str]) -> None:
+@click.option(
+    "--upload",
+    is_flag=True,
+    help="Upload to Supabase (disabled by default).",
+)
+def whatson(start: Optional[str], end: Optional[str], upload: bool) -> None:
     """
     Scrape What's On calendar events.
     """
@@ -248,6 +290,7 @@ def whatson(start: Optional[str], end: Optional[str]) -> None:
     context: dict[str, Any] = {
         "app_name": "suu-scrape",
         "scrape_type": "whatson",
+        "upload_supabase": upload,
     }
 
     run_plugins(scraped_data, context)
@@ -260,6 +303,13 @@ def run_plugins(data: dict[str, Any], context: dict[str, Any]) -> None:
 
     for PluginClass in plugin_classes:
         try:
+            module_name = str(getattr(PluginClass, "__module__", "")).lower()
+            class_name = str(getattr(PluginClass, "__name__", "")).lower()
+            is_supabase_plugin = "supabase" in module_name or "supabase" in class_name
+            if is_supabase_plugin and not context.get("upload_supabase", False):
+                click.echo(f"Skipping {PluginClass.__name__} (enable with --upload).")
+                continue
+
             plugin_instance = PluginClass()
             plugin_instance.setup(config={})
             plugin_instance.run(data, context)

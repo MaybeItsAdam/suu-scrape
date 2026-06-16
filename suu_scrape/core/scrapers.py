@@ -1,9 +1,16 @@
 from __future__ import annotations
 
+import json
 import re
+import threading
+from concurrent.futures import ThreadPoolExecutor
+from dataclasses import dataclass
+from datetime import datetime, timezone
+from pathlib import Path
 from abc import ABC, abstractmethod
-from typing import Any, ClassVar, Optional
+from typing import Any, Callable, ClassVar, Optional
 
+import requests
 from bs4 import BeautifulSoup, Tag
 from typing_extensions import override
 
@@ -52,6 +59,8 @@ _NETWORK_COMMITTEE_SUFFIXES = (
 
 # Role keywords for the --key-roles filter (president / treasurer of any group)
 _KEY_ROLE_KEYWORDS = ("president", "treasurer")
+_HTTP_TIMEOUT = 20.0
+_CHECKPOINT_VERSION = 1
 
 
 def is_officer_position(pos: dict[str, Any]) -> bool:
@@ -125,6 +134,24 @@ def filter_positions(
     return result
 
 
+def _http_get_soup(
+    url: str,
+    headers: Optional[dict[str, str]] = None,
+    session: Optional[requests.Session] = None,
+    timeout: float = _HTTP_TIMEOUT,
+) -> Optional[BeautifulSoup]:
+    requester = session.get if session is not None else requests.get
+    try:
+        resp = requester(url, headers=headers, timeout=timeout)
+    except requests.RequestException:
+        return None
+    if resp.status_code != 200:
+        return None
+    if "/user/login" in str(resp.url):
+        return None
+    return BeautifulSoup(resp.text, "html.parser")
+
+
 def get_all_elections(page: int = 0) -> list[dict[str, str]]:
     """
     Fetch the list of active elections.
@@ -134,7 +161,9 @@ def get_all_elections(page: int = 0) -> list[dict[str, str]]:
     if page > 0:
         url += f"?page={page}"
 
-    soup = get_soup(url)
+    soup = _http_get_soup(url)
+    if not soup:
+        soup = get_soup(url)
     if not soup:
         print("Error: could not fetch election list.")
         return []
@@ -155,6 +184,15 @@ def get_all_elections(page: int = 0) -> list[dict[str, str]]:
     return elections
 
 
+@dataclass
+class _PendingPosition:
+    full_title: str
+    result_link: str
+    group_name: str
+    group_type: str
+    role: str
+
+
 # ---------------------------------------------------------------------------
 # Generic election scraper
 # ---------------------------------------------------------------------------
@@ -173,6 +211,7 @@ class GenericElectionScraper(ScraperBase):
     societies_map: dict[str, object]
     officials_list: list[object]
     processed_links: set[str]
+    _http_local: threading.local
 
     def __init__(self, election_url: str) -> None:
         self.base_url = election_url
@@ -180,13 +219,40 @@ class GenericElectionScraper(ScraperBase):
         self.societies_map = {}
         self.officials_list = []
         self.processed_links = set()
+        self._http_local = threading.local()
 
     # ------------------------------------------------------------------
     # Internal helpers
     # ------------------------------------------------------------------
 
+    def _get_http_session(self) -> requests.Session:
+        session = getattr(self._http_local, "session", None)
+        if session is None:
+            session = requests.Session()
+            session.headers.update({"User-Agent": self._SCRAPER_UA})
+            self._http_local.session = session
+        return session
+
+    def _get_soup_http(self, url: str) -> Optional[BeautifulSoup]:
+        return _http_get_soup(url, session=self._get_http_session())
+
     def _get_soup(self, url: str) -> Optional[BeautifulSoup]:
+        # HTTP is much faster than Selenium for static pages; if blocked,
+        # we fall back to browser automation.
+        soup = self._get_soup_http(url)
+        if soup:
+            return soup
         return get_soup(url)
+
+    def _safe_checkpoint_name(self) -> str:
+        slug = "".join(
+            c if c.isalnum() else "_" for c in self.base_url.lower()
+        ).strip("_")
+        slug = "_".join(filter(None, slug.split("_")))
+        return slug[:80] or "election"
+
+    def default_checkpoint_path(self) -> str:
+        return f".suu_checkpoint_{self._safe_checkpoint_name()}.json"
 
     def get_network_links_map(self) -> dict[str, str]:
         if self.network_links_map is not None:
@@ -212,8 +278,75 @@ class GenericElectionScraper(ScraperBase):
         self.network_links_map = network_map
         return network_map
 
-    def parse_profile_for_pronouns(self, url: str) -> str:
-        soup = self._get_soup(url)
+    def _load_checkpoint(
+        self, checkpoint_path: Path, expected_options: dict[str, Any]
+    ) -> Optional[dict[str, Any]]:
+        if not checkpoint_path.exists():
+            return None
+        try:
+            payload = json.loads(checkpoint_path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            return None
+        if not isinstance(payload, dict):
+            return None
+        if payload.get("version") != _CHECKPOINT_VERSION:
+            return None
+        if payload.get("base_url") != self.base_url:
+            return None
+        if payload.get("options") != expected_options:
+            return None
+        return payload
+
+    def _write_checkpoint(
+        self,
+        checkpoint_path: Path,
+        *,
+        options: dict[str, Any],
+        positions: list[dict[str, Any]],
+        completed: bool,
+    ) -> None:
+        payload: dict[str, Any] = {
+            "version": _CHECKPOINT_VERSION,
+            "base_url": self.base_url,
+            "options": options,
+            "processed_links": sorted(self.processed_links),
+            "positions": positions,
+            "completed": completed,
+            "updated_at": datetime.now(timezone.utc).isoformat(),
+        }
+        temp_path = checkpoint_path.with_suffix(checkpoint_path.suffix + ".tmp")
+        temp_path.write_text(
+            json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8"
+        )
+        temp_path.replace(checkpoint_path)
+
+    def _completed_checkpoint_path(self, checkpoint_path: Path) -> Path:
+        if checkpoint_path.suffix:
+            return checkpoint_path.with_name(
+                f"{checkpoint_path.stem}_completed{checkpoint_path.suffix}"
+            )
+        return checkpoint_path.with_name(f"{checkpoint_path.name}_completed")
+
+    def _mark_checkpoint_complete(self, checkpoint_path: Path) -> Path:
+        completed_path = self._completed_checkpoint_path(checkpoint_path)
+        if completed_path == checkpoint_path:
+            return checkpoint_path
+        try:
+            if completed_path.exists():
+                completed_path.unlink()
+            checkpoint_path.replace(completed_path)
+            return completed_path
+        except OSError as exc:
+            print(f"Warning: failed to rename checkpoint {checkpoint_path}: {exc}")
+            return checkpoint_path
+
+    def parse_profile_for_pronouns(
+        self,
+        url: str,
+        soup_fetcher: Optional[Callable[[str], Optional[BeautifulSoup]]] = None,
+    ) -> str:
+        fetcher = soup_fetcher or self._get_soup
+        soup = fetcher(url)
         if not soup:
             return "Unknown"
 
@@ -274,6 +407,7 @@ class GenericElectionScraper(ScraperBase):
         role_title: str,
         include_rounds: bool = False,
         include_tallies: bool = False,
+        soup_fetcher: Optional[Callable[[str], Optional[BeautifulSoup]]] = None,
     ) -> tuple[
         list[dict[str, Any]], Optional[str], list[dict[str, Any]], dict[str, float]
     ]:
@@ -384,7 +518,9 @@ class GenericElectionScraper(ScraperBase):
 
             pronouns = "Unknown"
             if profile_url:
-                pronouns = self.parse_profile_for_pronouns(profile_url)
+                pronouns = self.parse_profile_for_pronouns(
+                    profile_url, soup_fetcher=soup_fetcher
+                )
 
             image_url: Optional[str] = None
             statement = "Statement not found"
@@ -427,13 +563,19 @@ class GenericElectionScraper(ScraperBase):
         role_title: str,
         include_rounds: bool = False,
         include_tallies: bool = False,
+        soup_fetcher: Optional[Callable[[str], Optional[BeautifulSoup]]] = None,
     ) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
-        soup = self._get_soup(url)
+        fetcher = soup_fetcher or self._get_soup
+        soup = fetcher(url)
         if not soup:
             return [], []
 
         winners, society_link, rounds, _ = self.parse_page_data(
-            soup, role_title, include_rounds, include_tallies
+            soup,
+            role_title,
+            include_rounds,
+            include_tallies,
+            soup_fetcher=fetcher,
         )
         for w in winners:
             w["meta_society_link"] = society_link
@@ -504,6 +646,102 @@ class GenericElectionScraper(ScraperBase):
         """Return all result links as a flat list (used externally if needed)."""
         return list(self._iter_result_links())
 
+    def _classify_position(self, full_title: str) -> tuple[str, str, str]:
+        group_name = "Union"
+        group_type = "Union"
+        role = full_title
+
+        if ":" in full_title:
+            # Club / Society positions: "Group Name: Role"
+            parts = full_title.split(":", 1)
+            group_name = parts[0].strip()
+            role = parts[1].strip()
+
+            if "Network" in group_name:
+                group_type = "Network"
+            elif "Club" in group_name:
+                group_type = "Club"
+            elif "Society" in group_name:
+                group_type = "Society"
+            else:
+                group_type = "Other"
+        elif "Network" in full_title:
+            # Network committee roles have no colon and contain "Network":
+            #   "POC Network Treasurer"
+            #   "Disabled Students' Network Social Secretary"
+            role_lower = full_title.lower()
+            if any(role_lower.endswith(suf) for suf in _NETWORK_COMMITTEE_SUFFIXES):
+                group_type = "NetworkCommittee"
+                for suf in _NETWORK_COMMITTEE_SUFFIXES:
+                    if role_lower.endswith(suf):
+                        group_name = full_title[: len(full_title) - len(suf)].strip()
+                        role = full_title[len(group_name) :].strip()
+                        break
+            else:
+                group_type = "NetworkCommittee"
+                group_name = full_title
+
+        return group_name, group_type, role
+
+    def _build_position_dict(
+        self,
+        *,
+        candidates_data: list[dict[str, Any]],
+        rounds_data: list[dict[str, Any]],
+        role: str,
+        group_name: str,
+        group_type: str,
+        include_rounds: bool,
+    ) -> dict[str, Any]:
+        group_link: Optional[str] = None
+        for cand in candidates_data:
+            if cand.get("meta_society_link"):
+                group_link = cand["meta_society_link"]
+                break
+
+        if not group_link and group_type == "Network":
+            network_map = self.get_network_links_map()
+            s_lower = group_name.lower()
+            for net_name, net_url in network_map.items():
+                if net_name in s_lower or s_lower in net_name:
+                    group_link = net_url
+                    break
+
+        clean_candidates: list[dict[str, Any]] = [
+            {
+                k: v
+                for k, v in cand.items()
+                if k not in ("meta_society_link", "role")
+            }
+            for cand in candidates_data
+        ]
+
+        pos_dict: dict[str, Any] = {
+            "title": role,
+            "group": group_name,
+            "group_type": group_type,
+            "group_link": group_link,
+            "winners": clean_candidates,
+        }
+        if include_rounds:
+            pos_dict["voting_rounds"] = rounds_data
+        return pos_dict
+
+    def _parse_candidate_page_http(
+        self,
+        url: str,
+        role_title: str,
+        include_rounds: bool,
+        include_tallies: bool,
+    ) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+        return self.parse_candidate_page(
+            url,
+            role_title,
+            include_rounds=include_rounds,
+            include_tallies=include_tallies,
+            soup_fetcher=self._get_soup_http,
+        )
+
     # ------------------------------------------------------------------
     # Public entry point
     # ------------------------------------------------------------------
@@ -519,13 +757,16 @@ class GenericElectionScraper(ScraperBase):
         progress_callback: Optional[Any] = None,
         page_callback: Optional[Any] = None,
         winner_callback: Optional[Any] = None,
+        checkpoint_path: Optional[str] = None,
+        resume: bool = False,
+        max_workers: int = 1,
     ) -> dict[str, Any]:
         """
         Scrape the election position by position.
 
-        Filters are applied inline as each position is fetched, so
-        progress_callback / winner_callback fire only for positions that
-        pass the active filters.
+        Progress is saved to a checkpoint file after each processed position.
+        If ``resume`` is True and the checkpoint matches this election +
+        scrape options, processing continues from where it left off.
 
         Callbacks
         ---------
@@ -541,61 +782,72 @@ class GenericElectionScraper(ScraperBase):
         """
         positions: list[dict[str, Any]] = []
         idx = 0
+        max_workers = max(1, int(max_workers))
 
+        checkpoint_file = Path(checkpoint_path or self.default_checkpoint_path())
+        checkpoint_options = {
+            "include_rounds": include_rounds,
+            "include_tallies": include_tallies,
+            "officers_only": officers_only,
+            "key_roles_only": key_roles_only,
+            "winners_only": winners_only,
+        }
+
+        if resume:
+            loaded_from = checkpoint_file
+            payload = self._load_checkpoint(checkpoint_file, checkpoint_options)
+            if not payload:
+                completed_file = self._completed_checkpoint_path(checkpoint_file)
+                payload = self._load_checkpoint(completed_file, checkpoint_options)
+                if payload:
+                    loaded_from = completed_file
+
+            if payload:
+                stored_positions = payload.get("positions", [])
+                if isinstance(stored_positions, list):
+                    positions = [p for p in stored_positions if isinstance(p, dict)]
+                stored_links = payload.get("processed_links", [])
+                if isinstance(stored_links, list):
+                    self.processed_links = {str(link) for link in stored_links}
+                idx = len(positions)
+                print(
+                    f"Resuming from {loaded_from} "
+                    f"({idx} position(s) already saved)."
+                )
+                if bool(payload.get("completed")):
+                    print("Checkpoint already complete.")
+                    return {
+                        "election": {"name": "Scraped Election", "url": self.base_url},
+                        "positions": positions,
+                    }
+            elif checkpoint_file.exists():
+                print(
+                    "Checkpoint exists but does not match this scrape config; "
+                    "starting fresh."
+                )
+        else:
+            self.processed_links = set()
+
+        def write_progress(*, completed: bool = False) -> None:
+            try:
+                self._write_checkpoint(
+                    checkpoint_file,
+                    options=checkpoint_options,
+                    positions=positions,
+                    completed=completed,
+                )
+            except OSError as exc:
+                print(f"Warning: failed to write checkpoint {checkpoint_file}: {exc}")
+
+        jobs: list[_PendingPosition] = []
         for full_title, result_link in self._iter_result_links(
             page_callback=page_callback
         ):
             if result_link in self.processed_links:
                 continue
 
-            group_name = "Union"
-            group_type = "Union"
-            role = full_title
-
-            if ":" in full_title:
-                # Club / Society positions: "Group Name: Role"
-                parts = full_title.split(":", 1)
-                group_name = parts[0].strip()
-                role = parts[1].strip()
-
-                if "Network" in group_name:
-                    group_type = "Network"
-                elif "Club" in group_name:
-                    group_type = "Club"
-                elif "Society" in group_name:
-                    group_type = "Society"
-                else:
-                    group_type = "Other"
-            elif "Network" in full_title:
-                # Network committee roles have no colon and contain "Network":
-                #   "POC Network Treasurer"
-                #   "Disabled Students' Network Social Secretary"
-                # The lead officer for each network is a union-level role and
-                # does NOT contain "Network" in the title (e.g. "Disabled
-                # Students' Officer") so we can safely classify anything with
-                # "Network" in the unprefixed title as a committee role.
-                role_lower = full_title.lower()
-                if any(role_lower.endswith(suf) for suf in _NETWORK_COMMITTEE_SUFFIXES):
-                    group_type = "NetworkCommittee"
-                    # Best-effort: strip the trailing role word(s) to get the
-                    # network name, e.g. "POC Network Treasurer" -> "POC Network"
-                    for suf in _NETWORK_COMMITTEE_SUFFIXES:
-                        if role_lower.endswith(suf):
-                            group_name = full_title[
-                                : len(full_title) - len(suf)
-                            ].strip()
-                            role = full_title[len(group_name) :].strip()
-                            break
-                else:
-                    # "Network" in title but no known committee suffix —
-                    # treat conservatively as NetworkCommittee to avoid false
-                    # positives in --officers-only.
-                    group_type = "NetworkCommittee"
-                    group_name = full_title
-
-            # Apply position-level filters (officers_only / key_roles_only)
-            # before making any HTTP requests for the individual result page.
-            _probe: dict[str, Any] = {
+            group_name, group_type, role = self._classify_position(full_title)
+            probe: dict[str, Any] = {
                 "title": role,
                 "group": group_name,
                 "group_type": group_type,
@@ -604,83 +856,125 @@ class GenericElectionScraper(ScraperBase):
             }
             if (
                 filter_position(
-                    _probe,
+                    probe,
                     officers_only=officers_only,
                     key_roles_only=key_roles_only,
-                    winners_only=False,  # can't check winners yet — need to fetch the page
+                    winners_only=False,  # need candidate page to know winners
                 )
                 is None
             ):
-                continue
-
-            candidates_data, rounds_data = self.parse_candidate_page(
-                result_link,
-                role,
-                include_rounds=include_rounds,
-                include_tallies=include_tallies,
-            )
-
-            group_link: Optional[str] = None
-            for cand in candidates_data:
-                if cand.get("meta_society_link"):
-                    group_link = cand["meta_society_link"]
-                    break
-
-            if not group_link and group_type == "Network":
-                network_map = self.get_network_links_map()
-                s_lower = group_name.lower()
-                for net_name, net_url in network_map.items():
-                    if net_name in s_lower or s_lower in net_name:
-                        group_link = net_url
-                        break
-
-            clean_candidates: list[dict[str, Any]] = [
-                {
-                    k: v
-                    for k, v in cand.items()
-                    if k not in ("meta_society_link", "role")
-                }
-                for cand in candidates_data
-            ]
-
-            pos_dict: dict[str, Any] = {
-                "title": role,
-                "group": group_name,
-                "group_type": group_type,
-                "group_link": group_link,
-                "winners": clean_candidates,
-            }
-
-            if include_rounds:
-                pos_dict["voting_rounds"] = rounds_data
-
-            # Apply winners_only filter inline now that we have candidate data.
-            filtered = filter_position(
-                pos_dict,
-                officers_only=False,  # already applied above
-                key_roles_only=False,  # already applied above
-                winners_only=winners_only,
-            )
-            if filtered is None:
                 self.processed_links.add(result_link)
+                write_progress()
                 continue
 
-            pos_dict = filtered
-            idx += 1
+            jobs.append(
+                _PendingPosition(
+                    full_title=full_title,
+                    result_link=result_link,
+                    group_name=group_name,
+                    group_type=group_type,
+                    role=role,
+                )
+            )
 
-            if progress_callback is not None:
-                progress_callback(idx, full_title)
+        if max_workers > 1 and len(jobs) > 1:
+            print(f"Using {max_workers} worker threads for result pages...")
+            with ThreadPoolExecutor(max_workers=max_workers) as executor:
+                parsed_iter = executor.map(
+                    self._parse_candidate_page_http,
+                    [j.result_link for j in jobs],
+                    [j.role for j in jobs],
+                    [include_rounds] * len(jobs),
+                    [include_tallies] * len(jobs),
+                )
 
-            # Fire winner_callback immediately so callers can print live output.
-            if winners_only and winner_callback is not None:
-                winner_names = [
-                    c["name"] for c in pos_dict.get("winners", []) if c.get("is_winner")
-                ]
-                if winner_names:
-                    winner_callback(role, group_name, winner_names)
+                for pending, parsed in zip(jobs, parsed_iter):
+                    candidates_data, rounds_data = parsed
+                    if not candidates_data:
+                        # Fallback to browser fetch for pages blocked in plain HTTP.
+                        candidates_data, rounds_data = self.parse_candidate_page(
+                            pending.result_link,
+                            pending.role,
+                            include_rounds=include_rounds,
+                            include_tallies=include_tallies,
+                        )
 
-            positions.append(pos_dict)
-            self.processed_links.add(result_link)
+                    pos_dict = self._build_position_dict(
+                        candidates_data=candidates_data,
+                        rounds_data=rounds_data,
+                        role=pending.role,
+                        group_name=pending.group_name,
+                        group_type=pending.group_type,
+                        include_rounds=include_rounds,
+                    )
+                    filtered = filter_position(
+                        pos_dict,
+                        winners_only=winners_only,
+                    )
+                    self.processed_links.add(pending.result_link)
+
+                    if filtered is None:
+                        write_progress()
+                        continue
+
+                    idx += 1
+                    if progress_callback is not None:
+                        progress_callback(idx, pending.full_title)
+
+                    if winners_only and winner_callback is not None:
+                        winner_names = [
+                            c["name"]
+                            for c in filtered.get("winners", [])
+                            if c.get("is_winner")
+                        ]
+                        if winner_names:
+                            winner_callback(pending.role, pending.group_name, winner_names)
+
+                    positions.append(filtered)
+                    write_progress()
+        else:
+            for pending in jobs:
+                candidates_data, rounds_data = self.parse_candidate_page(
+                    pending.result_link,
+                    pending.role,
+                    include_rounds=include_rounds,
+                    include_tallies=include_tallies,
+                )
+                pos_dict = self._build_position_dict(
+                    candidates_data=candidates_data,
+                    rounds_data=rounds_data,
+                    role=pending.role,
+                    group_name=pending.group_name,
+                    group_type=pending.group_type,
+                    include_rounds=include_rounds,
+                )
+                filtered = filter_position(
+                    pos_dict,
+                    winners_only=winners_only,
+                )
+                self.processed_links.add(pending.result_link)
+                if filtered is None:
+                    write_progress()
+                    continue
+
+                idx += 1
+                if progress_callback is not None:
+                    progress_callback(idx, pending.full_title)
+
+                if winners_only and winner_callback is not None:
+                    winner_names = [
+                        c["name"] for c in filtered.get("winners", []) if c.get("is_winner")
+                    ]
+                    if winner_names:
+                        winner_callback(pending.role, pending.group_name, winner_names)
+
+                positions.append(filtered)
+                write_progress()
+
+        write_progress(completed=True)
+        final_checkpoint = self._mark_checkpoint_complete(checkpoint_file)
+        if final_checkpoint != checkpoint_file:
+            print(f"Checkpoint renamed to {final_checkpoint}.")
 
         print("Scrape complete.")
         return {

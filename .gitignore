@@ -112,3 +112,6 @@ scrape_*.xlsx
 
 # Saved auth session (contains cookies — never commit)
 .suu_session.json
+
+# Incremental scrape checkpoints
+.suu_checkpoint_*

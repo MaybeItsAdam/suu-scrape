@@ -1,5 +1,10 @@
 # suu-scrape
 
+> [!NOTE]
+> **This project is being merged into [`suu-cli`](../suu-cli).** The scraper now lives
+> there as `suu scrape …` / `suu whatson`, alongside the form-filling tools, in one install.
+> This repo stays as the reference until `suu-cli` is fully verified, then will be archived.
+
 A modular scraper system for Students' Union UCL data, built with a plugin architecture and CLI.
 
 ## Installation
@@ -53,6 +58,9 @@ Skips the search entirely and scrapes that URL directly.
 Done — 42 position(s) kept after filters.
 ```
 
+Progress is checkpointed continuously to `.suu_checkpoint_<election>.json`, so interrupted runs can continue with `--resume`.
+When scraping completes, that checkpoint file is renamed to `.suu_checkpoint_<election>_completed.json`.
+
 ---
 
 ### Flags
@@ -64,6 +72,10 @@ Done — 42 position(s) kept after filters.
 | `--officers-only` | Keep only union-level officer roles (sabbatical officers + student officers). Network committee roles (Secretary, Treasurer, Social Secretary, etc.) and club/society positions are excluded entirely — their result pages are never fetched. |
 | `--key-roles` | Keep only President and Treasurer roles across all groups. |
 | `--winners-only` | Strip losing candidates. Positions with no declared winner are dropped. Winners are printed live as each position is scraped. |
+| `--workers` | Number of threads used to fetch result pages in parallel (default: `6`). Increase for speed on large elections. |
+| `--checkpoint-file` | Write incremental progress to this JSON file after each processed position. |
+| `--resume` | Continue from an existing checkpoint file (same election + same filter flags required). |
+| `--upload` | Run Supabase upload plugin. If omitted, upload is skipped. |
 | `--csv` | Export results to a flat `.csv` file (one row per candidate). |
 | `--xlsx` | Export results to a `.xlsx` file, ready to upload to Google Sheets. |
 | `--sheets` | Copy results as TSV to the clipboard — paste directly into Google Sheets with Cmd+V. |
@@ -76,6 +88,15 @@ suu-scrape election "Leadership" --officers-only --xlsx
 
 # Winners only with vote tallies, exported to CSV
 suu-scrape election "Leadership" --winners-only --tallies --csv
+
+# Faster run with 12 worker threads
+suu-scrape election "Leadership" --workers 12
+
+# Resume an interrupted run from its checkpoint file
+suu-scrape election "Leadership" --resume --checkpoint-file .leadership_checkpoint.json
+
+# Upload to Supabase explicitly (opt-in)
+suu-scrape election "Leadership" --upload
 
 # Copy to clipboard for Google Sheets
 suu-scrape election "Leadership" --officers-only --sheets
@@ -107,6 +128,8 @@ All output is written to the **current working directory**.
 | `scrape_election_<name>_<timestamp>.json` | Always — JSON export runs by default. |
 | `scrape_election_<name>_<timestamp>.csv` | Only with `--csv`. One row per candidate. |
 | `scrape_election_<name>_<timestamp>.xlsx` | Only with `--xlsx`. Styled spreadsheet with frozen header row, column widths, and a `Photo` column containing `=IMAGE()` formulas that render candidate photos inline when opened in Google Sheets. |
+| `.suu_checkpoint_<election>.json` | During election scraping — updated after each processed position. |
+| `.suu_checkpoint_<election>_completed.json` | Written at completion (the active checkpoint file is renamed). |
 
 ### CSV / XLSX columns
 
@@ -146,11 +169,33 @@ A three-step pipeline that merges raw scrape outputs into a single enriched resu
 
 ```
 categorise/
-├── categories.py   # shared logic: corrections, category rules, ordering
-├── combine.py      # step 1 — merge + categorise
-├── enrich.py       # step 2 — fill campaign_points via OpenAI
-└── pipeline.py     # runs both steps end-to-end
+├── categories.py        # shared logic: corrections, category rules, ordering
+├── combine.py           # step 1 — merge + categorise
+├── enrich.py            # step 2 — fill campaign_points via OpenAI
+├── pipeline.py          # runs combine + enrich end-to-end
+└── committee_export.py  # separate: society committee roster → seed JSON
 ```
+
+### `committee_export.py` — society committee roster
+
+Independent of the officer/accountability pipeline below. Turns a raw
+`scrape_election_*.json` into the `committee_data_to_seed.json` consumed by
+society-tracker's `scripts/seed_committees.ts`. Keeps only
+`group_type ∈ {Society, Club, NetworkCommittee}` positions (real society
+committees — union officers are dropped), groups them by society, and keeps the
+elected winners.
+
+```bash
+# auto-detect the most recent scrape_election_*.json
+python3 categorise/committee_export.py --year 2025-26
+
+# explicit input / output
+python3 categorise/committee_export.py scrape_election_xxx.json \
+    --year 2025-26 --out committee_data_to_seed.json
+```
+
+Then copy `committee_data_to_seed.json` to society-tracker's repo root and run
+`npx tsx scripts/seed_committees.ts --replace`.
 
 ### Quick start
 
@@ -215,7 +260,7 @@ python3 categorise/enrich.py results_combined.json --retry-existing
 
 ## Plugin Architecture
 
-After a scrape completes, every plugin in `suu_scrape/plugins/` runs automatically — no registration needed.
+After a scrape completes, plugins run automatically except Supabase upload, which is opt-in via `--upload`.
 
 ### Included plugins
 
@@ -225,7 +270,7 @@ After a scrape completes, every plugin in `suu_scrape/plugins/` runs automatical
 | CSV Export | `csv_export.py` | `--csv` only | Flat `.csv`, one row per candidate. |
 | XLSX Export | `xlsx_export.py` | `--xlsx` only | Styled spreadsheet with IMAGE formulas for Google Sheets. |
 | Clipboard Export | `clipboard_export.py` | `--sheets` only | Copies TSV to clipboard for direct paste into Google Sheets. |
-| Supabase Upload | `supabase_upload.py` | When `.env.local` credentials present | Upserts into Supabase tables. |
+| Supabase Upload | `supabase_upload.py` | `--upload` only | Upserts into Supabase tables when credentials are configured. |
 | Hello World | `hello_world.py` | Always (demo) | Prints a confirmation. Use as a template. |
 
 ### Supabase configuration
